@@ -1,0 +1,2437 @@
+{
+  "users": [
+    { 
+        "id": 1, 
+        "name": "Ash Ketchum", 
+        "email": "ash@pallet.edu", 
+        "formatId": 2 
+    },
+    { 
+        "id": 2, 
+        "name": "Misty Waterflower", 
+        "email": "misty@cerulean.edu", 
+        "formatId": 2 
+    },
+    { 
+        "id": 3, 
+        "name": "Brock Harrison", 
+        "email": "brock@pewter.edu", 
+        "formatId": 1 
+    }
+  ],
+  "formats": [
+    { 
+        "id": 1, 
+        "name": "Singles" 
+    },
+    { 
+        "id": 2, 
+        "name": "Doubles" 
+    }
+  ],
+  "types": [
+    { 
+        "id": 1, 
+        "name": "Normal" 
+    },
+    { 
+        "id": 2, 
+        "name": "Fire" 
+    },
+    { 
+        "id": 3, 
+        "name": "Water" 
+    },
+    { 
+        "id": 4, 
+        "name": "Grass" 
+    },
+    { 
+        "id": 5, 
+        "name": "Electric" 
+    },
+    { 
+        "id": 6, 
+        "name": "Ice" 
+    },
+    { 
+        "id": 7, 
+        "name": "Fighting" 
+    },
+    { 
+        "id": 8, 
+        "name": "Poison" 
+    },
+    { 
+        "id": 9, 
+        "name": "Ground" 
+    },
+    { 
+        "id": 10, 
+        "name": "Flying" 
+    },
+    { 
+        "id": 11, 
+        "name": "Psychic" 
+    },
+    { 
+        "id": 12, 
+        "name": "Bug" 
+    },
+    { 
+        "id": 13, 
+        "name": "Rock" 
+    },
+    { 
+        "id": 14, 
+        "name": "Ghost" 
+    },
+    { 
+        "id": 15, 
+        "name": "Dragon" 
+    },
+    { 
+        "id": 16, 
+        "name": "Dark" 
+    },
+    { 
+        "id": 17, 
+        "name": "Steel" 
+    },
+    { 
+        "id": 18, 
+        "name": "Fairy" 
+    }
+  ],
+  "natures": [
+    { 
+        "id": 1, 
+        "name": "Hardy" 
+    },
+    { 
+        "id": 2, 
+        "name": "Lonely" 
+    },
+    { 
+        "id": 3, 
+        "name": "Brave" 
+    },
+    { 
+        "id": 4, 
+        "name": "Adamant" 
+    },
+    { 
+        "id": 5, 
+        "name": "Naughty" 
+    },
+    { 
+        "id": 6, 
+        "name": "Bold" 
+    },
+    { 
+        "id": 7, 
+        "name": "Docile" 
+    },
+    { 
+        "id": 8, 
+        "name": "Relaxed" 
+    },
+    { 
+        "id": 9, 
+        "name": "Impish" 
+    },
+    { 
+        "id": 10, 
+        "name": "Lax" 
+    },
+    { 
+        "id": 11, 
+        "name": "Timid" 
+    },
+    { 
+        "id": 12, 
+        "name": "Hasty" 
+    },
+    { 
+        "id": 13, 
+        "name": "Serious" 
+    },
+    { 
+        "id": 14, 
+        "name": "Jolly" 
+    },
+    { 
+        "id": 15, 
+        "name": "Naive" 
+    },
+    { 
+        "id": 16, 
+        "name": "Modest" 
+    },
+    { 
+        "id": 17, 
+        "name": "Mild" 
+    },
+    { 
+        "id": 18, 
+        "name": "Quiet" 
+    },
+    { 
+        "id": 19, 
+        "name": "Bashful" 
+    },
+    { 
+        "id": 20, 
+        "name": "Rash" 
+    },
+    { 
+        "id": 21, 
+        "name": "Calm" 
+    },
+    { 
+        "id": 22, 
+        "name": "Gentle" 
+    },
+    { 
+        "id": 23, 
+        "name": "Sassy" 
+    },
+    { 
+        "id": 24, 
+        "name": "Careful" 
+    },
+    { 
+        "id": 25, 
+        "name": "Quirky" 
+    }
+  ],
+  "abilities": [
+    { 
+        "id": 1, 
+        "name": "Intimidate" 
+    },
+    { 
+        "id": 2, 
+        "name": "Drought" 
+    },
+    { 
+        "id": 3, 
+        "name": "Drizzle" 
+    },
+    { 
+        "id": 4, 
+        "name": "Sand Stream" 
+    },
+    {
+      "id": 5,
+      "name": "Snow Warning"
+    },
+    {
+      "id": 6,
+      "name": "Electric Surge"
+    },
+    {
+      "id": 7,
+      "name": "Psychic Surge"
+    },
+    {
+      "id": 8,
+      "name": "Misty Surge"
+    },
+    {
+      "id": 9,
+      "name": "Grassy Surge"
+    },
+    {
+      "id": 10,
+      "name": "Protosynthesis"
+    },
+    {
+      "id": 11,
+      "name": "Quark Drive"
+    },
+    {
+      "id": 12,
+      "name": "Pressure"
+    },
+    {
+      "id": 13,
+      "name": "Levitate"
+    },
+    {
+      "id": 14,
+      "name": "Wonder Guard"
+    },
+    {
+      "id": 15,
+      "name": "Speed Boost"
+    },
+    {
+      "id": 16,
+      "name": "Magic Guard"
+    },
+    {
+      "id": 17,
+      "name": "Regenerator"
+    },
+    {
+      "id": 18,
+      "name": "Multiscale"
+    },
+    {
+      "id": 19,
+      "name": "Thick Fat"
+    },
+    {
+      "id": 20,
+      "name": "Flash Fire"
+    },
+    {
+      "id": 21,
+      "name": "Torrent"
+    },
+    {
+      "id": 22,
+      "name": "Blaze"
+    },
+    {
+      "id": 23,
+      "name": "Overgrow"
+    },
+    {
+      "id": 24,
+      "name": "Inner Focus"
+    },
+    {
+      "id": 25,
+      "name": "Unburden"
+    },
+    {
+      "id": 26,
+      "name": "Intrepid Sword"
+    },
+    {
+      "id": 27,
+      "name": "Dauntless Shield"
+    },
+    {
+      "id": 28,
+      "name": "As One (Glastrier)"
+    },
+    {
+      "id": 29,
+      "name": "As One (Spectrier)"
+    },
+    {
+      "id": 30,
+      "name": "Primordial Sea"
+    },
+    {
+      "id": 31,
+      "name": "Desolate Land"
+    },
+    {
+      "id": 32,
+      "name": "Orichalcum Pulse"
+    },
+    {
+      "id": 33,
+      "name": "Hadron Engine"
+    },
+    {
+      "id": 34,
+      "name": "Good as Gold"
+    },
+    {
+      "id": 35,
+      "name": "Supreme Overlord"
+    },
+    {
+      "id": 36,
+      "name": "Vessel of Ruin"
+    },
+    {
+      "id": 37,
+      "name": "Tablets of Ruin"
+    },
+    {
+      "id": 38,
+      "name": "Analytic"
+    },
+    {
+      "id": 39,
+      "name": "Download"
+    },
+    {
+      "id": 40,
+      "name": "Trace"
+    },
+    {
+      "id": 41,
+      "name": "Aroma Veil"
+    },
+    {
+      "id": 42,
+      "name": "Sap Sipper"
+    },
+    {
+      "id": 43,
+      "name": "Defiant"
+    },
+    {
+      "id": 44,
+      "name": "Guts"
+    },
+    {
+      "id": 45,
+      "name": "Sheer Force"
+    },
+    {
+      "id": 46,
+      "name": "Disguise"
+    },
+    {
+      "id": 47,
+      "name": "Fur Coat"
+    },
+    {
+      "id": 48,
+      "name": "White Smoke"
+    },
+    {
+      "id": 49,
+      "name": "Bulletproof"
+    },
+    {
+      "id": 50,
+      "name": "Anger Point"
+    }
+  ],
+  "items": [
+    {
+      "id": 1,
+      "name": "Life Orb"
+    },
+    {
+      "id": 2,
+      "name": "Choice Scarf"
+    },
+    {
+      "id": 3,
+      "name": "Choice Band"
+    },
+    {
+      "id": 4,
+      "name": "Choice Specs"
+    },
+    {
+      "id": 5,
+      "name": "Assault Vest"
+    },
+    {
+      "id": 6,
+      "name": "Rocky Helmet"
+    },
+    {
+      "id": 7,
+      "name": "Sitrus Berry"
+    },
+    {
+      "id": 8,
+      "name": "Lum Berry"
+    },
+    {
+      "id": 9,
+      "name": "Focus Sash"
+    },
+    {
+      "id": 10,
+      "name": "Leftovers"
+    },
+    {
+      "id": 11,
+      "name": "Booster Energy"
+    },
+    {
+      "id": 12,
+      "name": "Clear Amulet"
+    },
+    {
+      "id": 13,
+      "name": "Covert Cloak"
+    },
+    {
+      "id": 14,
+      "name": "Safety Goggles"
+    },
+    {
+      "id": 15,
+      "name": "Weakness Policy"
+    },
+    {
+      "id": 16,
+      "name": "Wide Lens"
+    },
+    {
+      "id": 17,
+      "name": "Power Herb"
+    },
+    {
+      "id": 18,
+      "name": "Mental Herb"
+    },
+    {
+      "id": 19,
+      "name": "White Herb"
+    },
+    {
+      "id": 20,
+      "name": "Loaded Dice"
+    },
+    {
+      "id": 21,
+      "name": "Rusted Sword"
+    },
+    {
+      "id": 22,
+      "name": "Rusted Shield"
+    },
+    {
+      "id": 23,
+      "name": "Reins of Unity"
+    },
+    {
+      "id": 24,
+      "name": "Eviolite"
+    },
+    {
+      "id": 25,
+      "name": "Heat Rock"
+    },
+    {
+      "id": 26,
+      "name": "Damp Rock"
+    },
+    {
+      "id": 27,
+      "name": "Icy Rock"
+    },
+    {
+      "id": 28,
+      "name": "Smooth Rock"
+    },
+    {
+      "id": 29,
+      "name": "Terrain Extender"
+    },
+    {
+      "id": 30,
+      "name": "Shed Shell"
+    }
+  ],
+  "moves": [
+    {
+      "id": 1,
+      "name": "Flare Blitz"
+    },
+    {
+      "id": 2,
+      "name": "Close Combat"
+    },
+    {
+      "id": 3,
+      "name": "Extreme Speed"
+    },
+    {
+      "id": 4,
+      "name": "Fake Out"
+    },
+    {
+      "id": 5,
+      "name": "U-turn"
+    },
+    {
+      "id": 6,
+      "name": "Protect"
+    },
+    {
+      "id": 7,
+      "name": "Earthquake"
+    },
+    {
+      "id": 8,
+      "name": "Rock Slide"
+    },
+    {
+      "id": 9,
+      "name": "Tailwind"
+    },
+    {
+      "id": 10,
+      "name": "Icy Wind"
+    },
+    {
+      "id": 11,
+      "name": "Thunderbolt"
+    },
+    {
+      "id": 12,
+      "name": "Ice Beam"
+    },
+    {
+      "id": 13,
+      "name": "Surf"
+    },
+    {
+      "id": 14,
+      "name": "Hyper Voice"
+    },
+    {
+      "id": 15,
+      "name": "Moonblast"
+    },
+    {
+      "id": 16,
+      "name": "Dazzling Gleam"
+    },
+    {
+      "id": 17,
+      "name": "Shadow Ball"
+    },
+    {
+      "id": 18,
+      "name": "Energy Ball"
+    },
+    {
+      "id": 19,
+      "name": "Psychic"
+    },
+    {
+      "id": 20,
+      "name": "Trick Room"
+    },
+    {
+      "id": 21,
+      "name": "Follow Me"
+    },
+    {
+      "id": 22,
+      "name": "Rage Powder"
+    },
+    {
+      "id": 23,
+      "name": "Wide Guard"
+    },
+    {
+      "id": 24,
+      "name": "Helping Hand"
+    },
+    {
+      "id": 25,
+      "name": "Dragon Dance"
+    },
+    {
+      "id": 26,
+      "name": "Swords Dance"
+    },
+    {
+      "id": 27,
+      "name": "Nasty Plot"
+    },
+    {
+      "id": 28,
+      "name": "Will-O-Wisp"
+    },
+    {
+      "id": 29,
+      "name": "Thunder Wave"
+    },
+    {
+      "id": 30,
+      "name": "Spore"
+    },
+    {
+      "id": 31,
+      "name": "Knock Off"
+    },
+    {
+      "id": 32,
+      "name": "Sucker Punch"
+    },
+    {
+      "id": 33,
+      "name": "Play Rough"
+    },
+    {
+      "id": 34,
+      "name": "Body Press"
+    },
+    {
+      "id": 35,
+      "name": "Heavy Slam"
+    },
+    {
+      "id": 36,
+      "name": "Iron Head"
+    },
+    {
+      "id": 37,
+      "name": "Heat Wave"
+    },
+    {
+      "id": 38,
+      "name": "Draco Meteor"
+    },
+    {
+      "id": 39,
+      "name": "Dragon Claw"
+    },
+    {
+      "id": 40,
+      "name": "Brave Bird"
+    },
+    {
+      "id": 41,
+      "name": "Glacial Lance"
+    },
+    {
+      "id": 42,
+      "name": "Astral Barrage"
+    },
+    {
+      "id": 43,
+      "name": "Sacred Sword"
+    },
+    {
+      "id": 44,
+      "name": "Behemoth Blade"
+    },
+    {
+      "id": 45,
+      "name": "Behemoth Bash"
+    },
+    {
+      "id": 46,
+      "name": "Origin Pulse"
+    },
+    {
+      "id": 47,
+      "name": "Precipice Blades"
+    },
+    {
+      "id": 48,
+      "name": "Psystrike"
+    },
+    {
+      "id": 49,
+      "name": "Calm Mind"
+    },
+    {
+      "id": 50,
+      "name": "Stealth Rock"
+    },
+    {
+      "id": 51,
+      "name": "Ivy Cudgel"
+    },
+    {
+      "id": 52,
+      "name": "Aqua Jet"
+    },
+    {
+      "id": 53,
+      "name": "Jet Punch"
+    },
+    {
+      "id": 54,
+      "name": "Drain Punch"
+    },
+    {
+      "id": 55,
+      "name": "Ice Punch"
+    },
+    {
+      "id": 56,
+      "name": "Thunder Punch"
+    },
+    {
+      "id": 57,
+      "name": "Fire Punch"
+    },
+    {
+      "id": 58,
+      "name": "Shadow Sneak"
+    },
+    {
+      "id": 59,
+      "name": "Poltergeist"
+    },
+    {
+      "id": 60,
+      "name": "Make It Rain"
+    },
+    {
+      "id": 61,
+      "name": "Decorate"
+    },
+    {
+      "id": 62,
+      "name": "Instruct"
+    },
+    {
+      "id": 63,
+      "name": "Encore"
+    },
+    {
+      "id": 64,
+      "name": "Disable"
+    },
+    {
+      "id": 65,
+      "name": "Mud Shot"
+    },
+    {
+      "id": 66,
+      "name": "Body Slam"
+    },
+    {
+      "id": 67,
+      "name": "Double-Edge"
+    },
+    {
+      "id": 68,
+      "name": "Facade"
+    },
+    {
+      "id": 69,
+      "name": "Stomping Tantrum"
+    },
+    {
+      "id": 70,
+      "name": "High Horsepower"
+    },
+    {
+      "id": 71,
+      "name": "Hammer Arm"
+    },
+    {
+      "id": 72,
+      "name": "Superpower"
+    },
+    {
+      "id": 73,
+      "name": "Dark Pulse"
+    },
+    {
+      "id": 74,
+      "name": "Foul Play"
+    },
+    {
+      "id": 75,
+      "name": "Ruination"
+    },
+    {
+      "id": 76,
+      "name": "Leech Seed"
+    },
+    {
+      "id": 77,
+      "name": "Grassy Glide"
+    },
+    {
+      "id": 78,
+      "name": "Wood Hammer"
+    },
+    {
+      "id": 79,
+      "name": "Steelbeam"
+    },
+    {
+      "id": 80,
+      "name": "Rage Fist"
+    }
+  ],
+  "pokemon": [
+    {
+      "id": 1,
+      "name": "Incineroar",
+      "baseStats": {
+        "hp": 95,
+        "attack": 115,
+        "defense": 90,
+        "specialAttack": 80,
+        "specialDefense": 90,
+        "speed": 60
+      },
+      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/727.png"
+    },
+    {
+      "id": 2,
+      "name": "Flutter Mane",
+      "baseStats": {
+        "hp": 55,
+        "attack": 55,
+        "defense": 55,
+        "specialAttack": 135,
+        "specialDefense": 135,
+        "speed": 135
+      },
+      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/987.png"
+    },
+    {
+      "id": 3,
+      "name": "Rillaboom",
+      "baseStats": {
+        "hp": 100,
+        "attack": 125,
+        "defense": 90,
+        "specialAttack": 60,
+        "specialDefense": 70,
+        "speed": 85
+      },
+      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/812.png"
+    },
+    {
+      "id": 4,
+      "name": "Urshifu-Single",
+      "baseStats": {
+        "hp": 100,
+        "attack": 130,
+        "defense": 100,
+        "specialAttack": 63,
+        "specialDefense": 60,
+        "speed": 97
+      },
+      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/892.png"
+    },
+    {
+      "id": 5,
+      "name": "Landorus-Therian",
+      "baseStats": {
+        "hp": 89,
+        "attack": 145,
+        "defense": 90,
+        "specialAttack": 105,
+        "specialDefense": 80,
+        "speed": 91
+      },
+      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/645.png"
+    },
+    {
+      "id": 6,
+      "name": "Tornadus",
+      "baseStats": {
+        "hp": 79,
+        "attack": 115,
+        "defense": 70,
+        "specialAttack": 125,
+        "specialDefense": 80,
+        "speed": 111
+      },
+      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/641.png"
+    },
+    {
+      "id": 7,
+      "name": "Amoonguss",
+      "baseStats": {
+        "hp": 114,
+        "attack": 85,
+        "defense": 70,
+        "specialAttack": 85,
+        "specialDefense": 80,
+        "speed": 30
+      },
+      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/591.png"
+    },
+    {
+      "id": 8,
+      "name": "Chien-Pao",
+      "baseStats": {
+        "hp": 80,
+        "attack": 120,
+        "defense": 80,
+        "specialAttack": 90,
+        "specialDefense": 65,
+        "speed": 135
+      },
+      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1002.png"
+    },
+    {
+      "id": 9,
+      "name": "Garchomp",
+      "baseStats": {
+        "hp": 108,
+        "attack": 130,
+        "defense": 95,
+        "specialAttack": 80,
+        "specialDefense": 85,
+        "speed": 102
+      },
+      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/445.png"
+    },
+    {
+      "id": 10,
+      "name": "Palafin",
+      "baseStats": {
+        "hp": 100,
+        "attack": 160,
+        "defense": 97,
+        "specialAttack": 106,
+        "specialDefense": 97,
+        "speed": 100
+      },
+      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/964.png"
+    },
+    {
+      "id": 11,
+      "name": "Chi-Yu",
+      "baseStats": {
+        "hp": 55,
+        "attack": 80,
+        "defense": 80,
+        "specialAttack": 135,
+        "specialDefense": 120,
+        "speed": 100
+      },
+      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1004.png"
+    },
+    {
+      "id": 12,
+      "name": "Iron Hands",
+      "baseStats": {
+        "hp": 154,
+        "attack": 140,
+        "defense": 108,
+        "specialAttack": 50,
+        "specialDefense": 68,
+        "speed": 50
+      },
+      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/992.png"
+    },
+    {
+      "id": 13,
+      "name": "Dragonite",
+      "baseStats": {
+        "hp": 91,
+        "attack": 134,
+        "defense": 95,
+        "specialAttack": 100,
+        "specialDefense": 100,
+        "speed": 80
+      },
+      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/149.png"
+    },
+    {
+      "id": 14,
+      "name": "Grimmsnarl",
+      "baseStats": {
+        "hp": 95,
+        "attack": 120,
+        "defense": 65,
+        "specialAttack": 95,
+        "specialDefense": 75,
+        "speed": 60
+      },
+      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/861.png"
+    },
+    {
+      "id": 15,
+      "name": "Heatran",
+      "baseStats": {
+        "hp": 91,
+        "attack": 90,
+        "defense": 106,
+        "specialAttack": 130,
+        "specialDefense": 106,
+        "speed": 77
+      },
+      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/485.png"
+    },
+    {
+      "id": 16,
+      "name": "Calyrex-Shadow",
+      "baseStats": {
+        "hp": 100,
+        "attack": 85,
+        "defense": 80,
+        "specialAttack": 165,
+        "specialDefense": 100,
+        "speed": 150
+      },
+      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10192.png"
+    },
+    {
+      "id": 17,
+      "name": "Calyrex-Ice",
+      "baseStats": {
+        "hp": 100,
+        "attack": 165,
+        "defense": 150,
+        "specialAttack": 85,
+        "specialDefense": 130,
+        "speed": 50
+      },
+      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10191.png"
+    },
+    {
+      "id": 18,
+      "name": "Zacian-Crowned",
+      "baseStats": {
+        "hp": 92,
+        "attack": 170,
+        "defense": 115,
+        "specialAttack": 80,
+        "specialDefense": 115,
+        "speed": 148
+      },
+      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10177.png"
+    },
+    {
+      "id": 19,
+      "name": "Zamazenta-Crowned",
+      "baseStats": {
+        "hp": 92,
+        "attack": 130,
+        "defense": 145,
+        "specialAttack": 80,
+        "specialDefense": 145,
+        "speed": 128
+      },
+      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10178.png"
+    },
+    {
+      "id": 20,
+      "name": "Kyogre",
+      "baseStats": {
+        "hp": 100,
+        "attack": 100,
+        "defense": 90,
+        "specialAttack": 150,
+        "specialDefense": 140,
+        "speed": 90
+      },
+      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/382.png"
+    },
+    {
+      "id": 21,
+      "name": "Groudon",
+      "baseStats": {
+        "hp": 100,
+        "attack": 150,
+        "defense": 140,
+        "specialAttack": 100,
+        "specialDefense": 90,
+        "speed": 90
+      },
+      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/383.png"
+    },
+    {
+      "id": 22,
+      "name": "Koraidon",
+      "baseStats": {
+        "hp": 100,
+        "attack": 135,
+        "defense": 115,
+        "specialAttack": 85,
+        "specialDefense": 100,
+        "speed": 135
+      },
+      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1007.png"
+    },
+    {
+      "id": 23,
+      "name": "Miraidon",
+      "baseStats": {
+        "hp": 100,
+        "attack": 85,
+        "defense": 100,
+        "specialAttack": 135,
+        "specialDefense": 115,
+        "speed": 135
+      },
+      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1008.png"
+    },
+    {
+      "id": 24,
+      "name": "Iron Bundle",
+      "baseStats": {
+        "hp": 56,
+        "attack": 80,
+        "defense": 114,
+        "specialAttack": 124,
+        "specialDefense": 60,
+        "speed": 136
+      },
+      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/991.png"
+    },
+    {
+      "id": 25,
+      "name": "Annihilape",
+      "baseStats": {
+        "hp": 110,
+        "attack": 115,
+        "defense": 80,
+        "specialAttack": 50,
+        "specialDefense": 90,
+        "speed": 90
+      },
+      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/979.png"
+    },
+    {
+      "id": 26,
+      "name": "Gholdengo",
+      "baseStats": {
+        "hp": 87,
+        "attack": 60,
+        "defense": 95,
+        "specialAttack": 133,
+        "specialDefense": 91,
+        "speed": 84
+      },
+      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1000.png"
+    },
+    {
+      "id": 27,
+      "name": "Kingambit",
+      "baseStats": {
+        "hp": 100,
+        "attack": 135,
+        "defense": 120,
+        "specialAttack": 60,
+        "specialDefense": 85,
+        "speed": 50
+      },
+      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/983.png"
+    },
+    {
+      "id": 28,
+      "name": "Ting-Lu",
+      "baseStats": {
+        "hp": 155,
+        "attack": 110,
+        "defense": 125,
+        "specialAttack": 55,
+        "specialDefense": 80,
+        "speed": 45
+      },
+      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1001.png"
+    },
+    {
+      "id": 29,
+      "name": "Wo-Chien",
+      "baseStats": {
+        "hp": 85,
+        "attack": 85,
+        "defense": 100,
+        "specialAttack": 95,
+        "specialDefense": 135,
+        "speed": 45
+      },
+      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1001.png"
+    },
+    {
+      "id": 30,
+      "name": "Walking Wake",
+      "baseStats": {
+        "hp": 99,
+        "attack": 83,
+        "defense": 91,
+        "specialAttack": 125,
+        "specialDefense": 83,
+        "speed": 109
+      },
+      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1009.png"
+    },
+    {
+      "id": 31,
+      "name": "Iron Leaves",
+      "baseStats": {
+        "hp": 90,
+        "attack": 130,
+        "defense": 88,
+        "specialAttack": 70,
+        "specialDefense": 108,
+        "speed": 104
+      },
+      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1010.png"
+    },
+    {
+      "id": 32,
+      "name": "Ogerpon-Wellspring",
+      "baseStats": {
+        "hp": 80,
+        "attack": 120,
+        "defense": 84,
+        "specialAttack": 60,
+        "specialDefense": 96,
+        "speed": 110
+      },
+      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10273.png"
+    },
+    {
+      "id": 33,
+      "name": "Farigiraf",
+      "baseStats": {
+        "hp": 120,
+        "attack": 90,
+        "defense": 70,
+        "specialAttack": 110,
+        "specialDefense": 70,
+        "speed": 60
+      },
+      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/981.png"
+    },
+    {
+      "id": 34,
+      "name": "Dondozo",
+      "baseStats": {
+        "hp": 150,
+        "attack": 100,
+        "defense": 115,
+        "specialAttack": 65,
+        "specialDefense": 65,
+        "speed": 35
+      },
+      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/977.png"
+    },
+    {
+      "id": 35,
+      "name": "Tatsugiri",
+      "baseStats": {
+        "hp": 68,
+        "attack": 50,
+        "defense": 60,
+        "specialAttack": 120,
+        "specialDefense": 95,
+        "speed": 82
+      },
+      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/978.png"
+    },
+    {
+      "id": 36,
+      "name": "Indeedee-Female",
+      "baseStats": {
+        "hp": 70,
+        "attack": 55,
+        "defense": 65,
+        "specialAttack": 95,
+        "specialDefense": 110,
+        "speed": 85
+      },
+      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/876.png"
+    },
+    {
+      "id": 37,
+      "name": "Cresselia",
+      "baseStats": {
+        "hp": 120,
+        "attack": 70,
+        "defense": 120,
+        "specialAttack": 75,
+        "specialDefense": 130,
+        "speed": 85
+      },
+      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/488.png"
+    },
+    {
+      "id": 38,
+      "name": "Porygon2",
+      "baseStats": {
+        "hp": 85,
+        "attack": 80,
+        "defense": 90,
+        "specialAttack": 105,
+        "specialDefense": 95,
+        "speed": 60
+      },
+      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/233.png"
+    },
+    {
+      "id": 39,
+      "name": "Oranguru",
+      "baseStats": {
+        "hp": 90,
+        "attack": 60,
+        "defense": 80,
+        "specialAttack": 90,
+        "specialDefense": 110,
+        "speed": 60
+      },
+      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/765.png"
+    },
+    {
+      "id": 40,
+      "name": "Torkoal",
+      "baseStats": {
+        "hp": 70,
+        "attack": 85,
+        "defense": 140,
+        "specialAttack": 85,
+        "specialDefense": 70,
+        "speed": 20
+      },
+      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/324.png"
+    },
+    {
+      "id": 41,
+      "name": "Stakataka",
+      "baseStats": {
+        "hp": 61,
+        "attack": 131,
+        "defense": 211,
+        "specialAttack": 53,
+        "specialDefense": 101,
+        "speed": 13
+      },
+      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/805.png"
+    },
+    {
+      "id": 42,
+      "name": "Hariyama",
+      "baseStats": {
+        "hp": 144,
+        "attack": 120,
+        "defense": 60,
+        "specialAttack": 40,
+        "specialDefense": 60,
+        "speed": 50
+      },
+      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/297.png"
+    },
+    {
+      "id": 43,
+      "name": "Conkeldurr",
+      "baseStats": {
+        "hp": 105,
+        "attack": 140,
+        "defense": 95,
+        "specialAttack": 55,
+        "specialDefense": 65,
+        "speed": 45
+      },
+      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/534.png"
+    },
+    {
+      "id": 44,
+      "name": "Mimikyu",
+      "baseStats": {
+        "hp": 55,
+        "attack": 90,
+        "defense": 80,
+        "specialAttack": 50,
+        "specialDefense": 105,
+        "speed": 96
+      },
+      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/778.png"
+    },
+    {
+      "id": 45,
+      "name": "Ursaluna",
+      "baseStats": {
+        "hp": 130,
+        "attack": 140,
+        "defense": 105,
+        "specialAttack": 45,
+        "specialDefense": 80,
+        "speed": 50
+      },
+      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/901.png"
+    },
+    {
+      "id": 46,
+      "name": "Glimmora",
+      "baseStats": {
+        "hp": 83,
+        "attack": 55,
+        "defense": 90,
+        "specialAttack": 130,
+        "specialDefense": 90,
+        "speed": 86
+      },
+      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/970.png"
+    },
+    {
+      "id": 47,
+      "name": "Hydreigon",
+      "baseStats": {
+        "hp": 92,
+        "attack": 105,
+        "defense": 90,
+        "specialAttack": 125,
+        "specialDefense": 90,
+        "speed": 98
+      },
+      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/635.png"
+    },
+    {
+      "id": 48,
+      "name": "Mudsdale",
+      "baseStats": {
+        "hp": 100,
+        "attack": 125,
+        "defense": 100,
+        "specialAttack": 55,
+        "specialDefense": 85,
+        "speed": 35
+      },
+      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/749.png"
+    },
+    {
+      "id": 49,
+      "name": "Gothitelle",
+      "baseStats": {
+        "hp": 70,
+        "attack": 55,
+        "defense": 95,
+        "specialAttack": 95,
+        "specialDefense": 110,
+        "speed": 65
+      },
+      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/576.png"
+    },
+    {
+      "id": 50,
+      "name": "Slaking",
+      "baseStats": {
+        "hp": 150,
+        "attack": 160,
+        "defense": 100,
+        "specialAttack": 95,
+        "specialDefense": 65,
+        "speed": 100
+      },
+      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/289.png"
+    }
+  ],
+  "pokemonTypes": [
+    {
+      "id": 1,
+      "pokemonId": 1,
+      "typeId": 2
+    },
+    {
+      "id": 2,
+      "pokemonId": 1,
+      "typeId": 16
+    },
+    {
+      "id": 3,
+      "pokemonId": 2,
+      "typeId": 14
+    },
+    {
+      "id": 4,
+      "pokemonId": 2,
+      "typeId": 18
+    },
+    {
+      "id": 5,
+      "pokemonId": 3,
+      "typeId": 4
+    },
+    {
+      "id": 6,
+      "pokemonId": 4,
+      "typeId": 7
+    },
+    {
+      "id": 7,
+      "pokemonId": 4,
+      "typeId": 16
+    },
+    {
+      "id": 8,
+      "pokemonId": 5,
+      "typeId": 9
+    },
+    {
+      "id": 9,
+      "pokemonId": 5,
+      "typeId": 10
+    },
+    {
+      "id": 10,
+      "pokemonId": 6,
+      "typeId": 10
+    },
+    {
+      "id": 11,
+      "pokemonId": 7,
+      "typeId": 4
+    },
+    {
+      "id": 12,
+      "pokemonId": 7,
+      "typeId": 8
+    },
+    {
+      "id": 13,
+      "pokemonId": 8,
+      "typeId": 16
+    },
+    {
+      "id": 14,
+      "pokemonId": 8,
+      "typeId": 6
+    },
+    {
+      "id": 15,
+      "pokemonId": 9,
+      "typeId": 15
+    },
+    {
+      "id": 16,
+      "pokemonId": 9,
+      "typeId": 9
+    },
+    {
+      "id": 17,
+      "pokemonId": 10,
+      "typeId": 3
+    },
+    {
+      "id": 18,
+      "pokemonId": 11,
+      "typeId": 2
+    },
+    {
+      "id": 19,
+      "pokemonId": 11,
+      "typeId": 16
+    },
+    {
+      "id": 20,
+      "pokemonId": 12,
+      "typeId": 7
+    },
+    {
+      "id": 21,
+      "pokemonId": 12,
+      "typeId": 5
+    },
+    {
+      "id": 22,
+      "pokemonId": 13,
+      "typeId": 15
+    },
+    {
+      "id": 23,
+      "pokemonId": 13,
+      "typeId": 10
+    },
+    {
+      "id": 24,
+      "pokemonId": 14,
+      "typeId": 16
+    },
+    {
+      "id": 25,
+      "pokemonId": 14,
+      "typeId": 18
+    },
+    {
+      "id": 26,
+      "pokemonId": 15,
+      "typeId": 2
+    },
+    {
+      "id": 27,
+      "pokemonId": 15,
+      "typeId": 17
+    },
+    {
+      "id": 28,
+      "pokemonId": 16,
+      "typeId": 11
+    },
+    {
+      "id": 29,
+      "pokemonId": 16,
+      "typeId": 14
+    },
+    {
+      "id": 30,
+      "pokemonId": 17,
+      "typeId": 11
+    },
+    {
+      "id": 31,
+      "pokemonId": 17,
+      "typeId": 6
+    },
+    {
+      "id": 32,
+      "pokemonId": 18,
+      "typeId": 18
+    },
+    {
+      "id": 33,
+      "pokemonId": 18,
+      "typeId": 17
+    },
+    {
+      "id": 34,
+      "pokemonId": 19,
+      "typeId": 7
+    },
+    {
+      "id": 35,
+      "pokemonId": 19,
+      "typeId": 17
+    },
+    {
+      "id": 36,
+      "pokemonId": 20,
+      "typeId": 3
+    },
+    {
+      "id": 37,
+      "pokemonId": 21,
+      "typeId": 9
+    },
+    {
+      "id": 38,
+      "pokemonId": 22,
+      "typeId": 7
+    },
+    {
+      "id": 39,
+      "pokemonId": 22,
+      "typeId": 15
+    },
+    {
+      "id": 40,
+      "pokemonId": 23,
+      "typeId": 5
+    },
+    {
+      "id": 41,
+      "pokemonId": 23,
+      "typeId": 15
+    },
+    {
+      "id": 42,
+      "pokemonId": 24,
+      "typeId": 3
+    },
+    {
+      "id": 43,
+      "pokemonId": 24,
+      "typeId": 6
+    },
+    {
+      "id": 44,
+      "pokemonId": 25,
+      "typeId": 7
+    },
+    {
+      "id": 45,
+      "pokemonId": 25,
+      "typeId": 14
+    },
+    {
+      "id": 46,
+      "pokemonId": 26,
+      "typeId": 17
+    },
+    {
+      "id": 47,
+      "pokemonId": 26,
+      "typeId": 14
+    },
+    {
+      "id": 48,
+      "pokemonId": 27,
+      "typeId": 16
+    },
+    {
+      "id": 49,
+      "pokemonId": 27,
+      "typeId": 17
+    },
+    {
+      "id": 50,
+      "pokemonId": 28,
+      "typeId": 16
+    },
+    {
+      "id": 51,
+      "pokemonId": 28,
+      "typeId": 9
+    },
+    {
+      "id": 52,
+      "pokemonId": 29,
+      "typeId": 16
+    },
+    {
+      "id": 53,
+      "pokemonId": 29,
+      "typeId": 4
+    },
+    {
+      "id": 54,
+      "pokemonId": 30,
+      "typeId": 3
+    },
+    {
+      "id": 55,
+      "pokemonId": 30,
+      "typeId": 15
+    },
+    {
+      "id": 56,
+      "pokemonId": 31,
+      "typeId": 4
+    },
+    {
+      "id": 57,
+      "pokemonId": 31,
+      "typeId": 11
+    },
+    {
+      "id": 58,
+      "pokemonId": 32,
+      "typeId": 3
+    },
+    {
+      "id": 59,
+      "pokemonId": 32,
+      "typeId": 4
+    },
+    {
+      "id": 60,
+      "pokemonId": 33,
+      "typeId": 1
+    },
+    {
+      "id": 61,
+      "pokemonId": 33,
+      "typeId": 11
+    },
+    {
+      "id": 62,
+      "pokemonId": 34,
+      "typeId": 3
+    },
+    {
+      "id": 63,
+      "pokemonId": 35,
+      "typeId": 15
+    },
+    {
+      "id": 64,
+      "pokemonId": 35,
+      "typeId": 3
+    },
+    {
+      "id": 65,
+      "pokemonId": 36,
+      "typeId": 1
+    },
+    {
+      "id": 66,
+      "pokemonId": 36,
+      "typeId": 11
+    },
+    {
+      "id": 67,
+      "pokemonId": 37,
+      "typeId": 11
+    },
+    {
+      "id": 68,
+      "pokemonId": 38,
+      "typeId": 1
+    },
+    {
+      "id": 69,
+      "pokemonId": 39,
+      "typeId": 1
+    },
+    {
+      "id": 70,
+      "pokemonId": 39,
+      "typeId": 11
+    },
+    {
+      "id": 71,
+      "pokemonId": 40,
+      "typeId": 2
+    },
+    {
+      "id": 72,
+      "pokemonId": 41,
+      "typeId": 13
+    },
+    {
+      "id": 73,
+      "pokemonId": 41,
+      "typeId": 17
+    },
+    {
+      "id": 74,
+      "pokemonId": 42,
+      "typeId": 7
+    },
+    {
+      "id": 75,
+      "pokemonId": 43,
+      "typeId": 7
+    },
+    {
+      "id": 76,
+      "pokemonId": 44,
+      "typeId": 14
+    },
+    {
+      "id": 77,
+      "pokemonId": 44,
+      "typeId": 18
+    },
+    {
+      "id": 78,
+      "pokemonId": 45,
+      "typeId": 1
+    },
+    {
+      "id": 79,
+      "pokemonId": 45,
+      "typeId": 9
+    },
+    {
+      "id": 80,
+      "pokemonId": 46,
+      "typeId": 13
+    },
+    {
+      "id": 81,
+      "pokemonId": 46,
+      "typeId": 8
+    },
+    {
+      "id": 82,
+      "pokemonId": 47,
+      "typeId": 15
+    },
+    {
+      "id": 83,
+      "pokemonId": 47,
+      "typeId": 16
+    },
+    {
+      "id": 84,
+      "pokemonId": 48,
+      "typeId": 9
+    },
+    {
+      "id": 85,
+      "pokemonId": 49,
+      "typeId": 11
+    },
+    {
+      "id": 86,
+      "pokemonId": 50,
+      "typeId": 1
+    }
+  ],
+  "teams": [
+    {
+      "id": 1,
+      "name": "Trick Room Terror",
+      "userId": 1,
+      "formatId": 2
+    },
+    {
+      "id": 2,
+      "name": "Sun and Guns",
+      "userId": 2,
+      "formatId": 2
+    },
+    {
+      "id": 3,
+      "name": "Sand Offense",
+      "userId": 3,
+      "formatId": 1
+    }
+  ],
+  "pokemonTeams": [
+    {
+      "id": 1,
+      "pokemonId": 1,
+      "teamId": 1,
+      "natureId": 3,
+      "itemId": 7,
+      "abilityId": 1
+    },
+    {
+      "id": 2,
+      "pokemonId": 12,
+      "teamId": 1,
+      "natureId": 3,
+      "itemId": 5,
+      "abilityId": 11
+    },
+    {
+      "id": 3,
+      "pokemonId": 7,
+      "teamId": 1,
+      "natureId": 8,
+      "itemId": 14,
+      "abilityId": 17
+    },
+    {
+      "id": 4,
+      "pokemonId": 38,
+      "teamId": 1,
+      "natureId": 8,
+      "itemId": 24,
+      "abilityId": 39
+    },
+    {
+      "id": 5,
+      "pokemonId": 45,
+      "teamId": 1,
+      "natureId": 3,
+      "itemId": 1,
+      "abilityId": 44
+    },
+    {
+      "id": 6,
+      "pokemonId": 37,
+      "teamId": 1,
+      "natureId": 8,
+      "itemId": 10,
+      "abilityId": 13
+    },
+    {
+      "id": 7,
+      "pokemonId": 2,
+      "teamId": 2,
+      "natureId": 11,
+      "itemId": 11,
+      "abilityId": 10
+    },
+    {
+      "id": 8,
+      "pokemonId": 3,
+      "teamId": 2,
+      "natureId": 4,
+      "itemId": 7,
+      "abilityId": 9
+    },
+    {
+      "id": 9,
+      "pokemonId": 1,
+      "teamId": 2,
+      "natureId": 4,
+      "itemId": 8,
+      "abilityId": 1
+    },
+    {
+      "id": 10,
+      "pokemonId": 40,
+      "teamId": 2,
+      "natureId": 8,
+      "itemId": 25,
+      "abilityId": 2
+    },
+    {
+      "id": 11,
+      "pokemonId": 7,
+      "teamId": 2,
+      "natureId": 8,
+      "itemId": 14,
+      "abilityId": 17
+    },
+    {
+      "id": 12,
+      "pokemonId": 26,
+      "teamId": 2,
+      "natureId": 16,
+      "itemId": 1,
+      "abilityId": 34
+    },
+    {
+      "id": 13,
+      "pokemonId": 9,
+      "teamId": 3,
+      "natureId": 14,
+      "itemId": 2,
+      "abilityId": 13
+    },
+    {
+      "id": 14,
+      "pokemonId": 5,
+      "teamId": 3,
+      "natureId": 14,
+      "itemId": 6,
+      "abilityId": 1
+    },
+    {
+      "id": 15,
+      "pokemonId": 15,
+      "teamId": 3,
+      "natureId": 18,
+      "itemId": 1,
+      "abilityId": 20
+    },
+    {
+      "id": 16,
+      "pokemonId": 8,
+      "teamId": 3,
+      "natureId": 14,
+      "itemId": 9,
+      "abilityId": 37
+    }
+  ],
+  "pokemonMoves": [
+    {
+      "id": 1,
+      "pokemonTeamId": 1,
+      "moveId": 4
+    },
+    {
+      "id": 2,
+      "pokemonTeamId": 1,
+      "moveId": 1
+    },
+    {
+      "id": 3,
+      "pokemonTeamId": 1,
+      "moveId": 2
+    },
+    {
+      "id": 4,
+      "pokemonTeamId": 1,
+      "moveId": 6
+    },
+    {
+      "id": 5,
+      "pokemonTeamId": 2,
+      "moveId": 34
+    },
+    {
+      "id": 6,
+      "pokemonTeamId": 2,
+      "moveId": 35
+    },
+    {
+      "id": 7,
+      "pokemonTeamId": 2,
+      "moveId": 7
+    },
+    {
+      "id": 8,
+      "pokemonTeamId": 2,
+      "moveId": 6
+    },
+    {
+      "id": 9,
+      "pokemonTeamId": 3,
+      "moveId": 22
+    },
+    {
+      "id": 10,
+      "pokemonTeamId": 3,
+      "moveId": 20
+    },
+    {
+      "id": 11,
+      "pokemonTeamId": 3,
+      "moveId": 30
+    },
+    {
+      "id": 12,
+      "pokemonTeamId": 3,
+      "moveId": 6
+    },
+    {
+      "id": 13,
+      "pokemonTeamId": 4,
+      "moveId": 20
+    },
+    {
+      "id": 14,
+      "pokemonTeamId": 4,
+      "moveId": 19
+    },
+    {
+      "id": 15,
+      "pokemonTeamId": 4,
+      "moveId": 17
+    },
+    {
+      "id": 16,
+      "pokemonTeamId": 4,
+      "moveId": 6
+    },
+    {
+      "id": 17,
+      "pokemonTeamId": 5,
+      "moveId": 70
+    },
+    {
+      "id": 18,
+      "pokemonTeamId": 5,
+      "moveId": 68
+    },
+    {
+      "id": 19,
+      "pokemonTeamId": 5,
+      "moveId": 54
+    },
+    {
+      "id": 20,
+      "pokemonTeamId": 5,
+      "moveId": 6
+    },
+    {
+      "id": 21,
+      "pokemonTeamId": 6,
+      "moveId": 20
+    },
+    {
+      "id": 22,
+      "pokemonTeamId": 6,
+      "moveId": 19
+    },
+    {
+      "id": 23,
+      "pokemonTeamId": 6,
+      "moveId": 49
+    },
+    {
+      "id": 24,
+      "pokemonTeamId": 6,
+      "moveId": 6
+    },
+    {
+      "id": 25,
+      "pokemonTeamId": 7,
+      "moveId": 15
+    },
+    {
+      "id": 26,
+      "pokemonTeamId": 7,
+      "moveId": 17
+    },
+    {
+      "id": 27,
+      "pokemonTeamId": 7,
+      "moveId": 16
+    },
+    {
+      "id": 28,
+      "pokemonTeamId": 7,
+      "moveId": 6
+    },
+    {
+      "id": 29,
+      "pokemonTeamId": 8,
+      "moveId": 77
+    },
+    {
+      "id": 30,
+      "pokemonTeamId": 8,
+      "moveId": 9
+    },
+    {
+      "id": 31,
+      "pokemonTeamId": 8,
+      "moveId": 24
+    },
+    {
+      "id": 32,
+      "pokemonTeamId": 8,
+      "moveId": 6
+    },
+    {
+      "id": 33,
+      "pokemonTeamId": 9,
+      "moveId": 4
+    },
+    {
+      "id": 34,
+      "pokemonTeamId": 9,
+      "moveId": 1
+    },
+    {
+      "id": 35,
+      "pokemonTeamId": 9,
+      "moveId": 31
+    },
+    {
+      "id": 36,
+      "pokemonTeamId": 9,
+      "moveId": 6
+    },
+    {
+      "id": 37,
+      "pokemonTeamId": 10,
+      "moveId": 37
+    },
+    {
+      "id": 38,
+      "pokemonTeamId": 10,
+      "moveId": 7
+    },
+    {
+      "id": 39,
+      "pokemonTeamId": 10,
+      "moveId": 28
+    },
+    {
+      "id": 40,
+      "pokemonTeamId": 10,
+      "moveId": 6
+    },
+    {
+      "id": 41,
+      "pokemonTeamId": 11,
+      "moveId": 22
+    },
+    {
+      "id": 42,
+      "pokemonTeamId": 11,
+      "moveId": 20
+    },
+    {
+      "id": 43,
+      "pokemonTeamId": 11,
+      "moveId": 30
+    },
+    {
+      "id": 44,
+      "pokemonTeamId": 11,
+      "moveId": 6
+    },
+    {
+      "id": 45,
+      "pokemonTeamId": 12,
+      "moveId": 60
+    },
+    {
+      "id": 46,
+      "pokemonTeamId": 12,
+      "moveId": 17
+    },
+    {
+      "id": 47,
+      "pokemonTeamId": 12,
+      "moveId": 27
+    },
+    {
+      "id": 48,
+      "pokemonTeamId": 12,
+      "moveId": 6
+    },
+    {
+      "id": 49,
+      "pokemonTeamId": 13,
+      "moveId": 25
+    },
+    {
+      "id": 50,
+      "pokemonTeamId": 13,
+      "moveId": 39
+    },
+    {
+      "id": 51,
+      "pokemonTeamId": 13,
+      "moveId": 7
+    },
+    {
+      "id": 52,
+      "pokemonTeamId": 13,
+      "moveId": 6
+    },
+    {
+      "id": 53,
+      "pokemonTeamId": 14,
+      "moveId": 7
+    },
+    {
+      "id": 54,
+      "pokemonTeamId": 14,
+      "moveId": 8
+    },
+    {
+      "id": 55,
+      "pokemonTeamId": 14,
+      "moveId": 9
+    },
+    {
+      "id": 56,
+      "pokemonTeamId": 14,
+      "moveId": 6
+    },
+    {
+      "id": 57,
+      "pokemonTeamId": 15,
+      "moveId": 37
+    },
+    {
+      "id": 58,
+      "pokemonTeamId": 15,
+      "moveId": 7
+    },
+    {
+      "id": 59,
+      "pokemonTeamId": 15,
+      "moveId": 23
+    },
+    {
+      "id": 60,
+      "pokemonTeamId": 15,
+      "moveId": 6
+    },
+    {
+      "id": 61,
+      "pokemonTeamId": 16,
+      "moveId": 10
+    },
+    {
+      "id": 62,
+      "pokemonTeamId": 16,
+      "moveId": 31
+    },
+    {
+      "id": 63,
+      "pokemonTeamId": 16,
+      "moveId": 75
+    },
+    {
+      "id": 64,
+      "pokemonTeamId": 16,
+      "moveId": 6
+    }
+  ],
+  "likes": [
+    {
+      "id": 1,
+      "userId": 2,
+      "teamId": 1
+    },
+    {
+      "id": 2,
+      "userId": 3,
+      "teamId": 1
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "teamId": 2
+    },
+    {
+      "id": 4,
+      "userId": 3,
+      "teamId": 2
+    },
+    {
+      "id": 5,
+      "userId": 1,
+      "teamId": 3
+    }
+  ]
+}
