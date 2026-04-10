@@ -1,211 +1,321 @@
 {
-  "users": [
-    {
-      "id": 1,
-      "name": "Ash Ketchum",
-      "email": "ash@pallet.edu",
-      "formatId": 2
-    },
-    {
-      "id": 2,
-      "name": "Misty Waterflower",
-      "email": "misty@cerulean.edu",
-      "formatId": 2
-    },
-    {
-      "id": 3,
-      "name": "Brock Harrison",
-      "email": "brock@pewter.edu",
-      "formatId": 1
-    }
-  ],
-  "formats": [
-    {
-      "id": 1,
-      "name": "Singles"
-    },
-    {
-      "id": 2,
-      "name": "Doubles"
-    }
-  ],
-  "types": [
-    {
-      "id": 1,
-      "name": "Normal"
-    },
-    {
-      "id": 2,
-      "name": "Fire"
-    },
-    {
-      "id": 3,
-      "name": "Water"
-    },
-    {
-      "id": 4,
-      "name": "Grass"
-    },
-    {
-      "id": 5,
-      "name": "Electric"
-    },
-    {
-      "id": 6,
-      "name": "Ice"
-    },
-    {
-      "id": 7,
-      "name": "Fighting"
-    },
-    {
-      "id": 8,
-      "name": "Poison"
-    },
-    {
-      "id": 9,
-      "name": "Ground"
-    },
-    {
-      "id": 10,
-      "name": "Flying"
-    },
-    {
-      "id": 11,
-      "name": "Psychic"
-    },
-    {
-      "id": 12,
-      "name": "Bug"
-    },
-    {
-      "id": 13,
-      "name": "Rock"
-    },
-    {
-      "id": 14,
-      "name": "Ghost"
-    },
-    {
-      "id": 15,
-      "name": "Dragon"
-    },
-    {
-      "id": 16,
-      "name": "Dark"
-    },
-    {
-      "id": 17,
-      "name": "Steel"
-    },
-    {
-      "id": 18,
-      "name": "Fairy"
-    }
-  ],
-  "natures": [
-    {
-      "id": 1,
-      "name": "Hardy"
-    },
-    {
-      "id": 2,
-      "name": "Lonely"
-    },
-    {
-      "id": 3,
-      "name": "Brave"
-    },
-    {
-      "id": 4,
-      "name": "Adamant"
-    },
-    {
-      "id": 5,
-      "name": "Naughty"
-    },
-    {
-      "id": 6,
-      "name": "Bold"
-    },
-    {
-      "id": 7,
-      "name": "Docile"
-    },
-    {
-      "id": 8,
-      "name": "Relaxed"
-    },
-    {
-      "id": 9,
-      "name": "Impish"
-    },
-    {
-      "id": 10,
-      "name": "Lax"
-    },
-    {
-      "id": 11,
-      "name": "Timid"
-    },
-    {
-      "id": 12,
-      "name": "Hasty"
-    },
-    {
-      "id": 13,
-      "name": "Serious"
-    },
-    {
-      "id": 14,
-      "name": "Jolly"
-    },
-    {
-      "id": 15,
-      "name": "Naive"
-    },
-    {
-      "id": 16,
-      "name": "Modest"
-    },
-    {
-      "id": 17,
-      "name": "Mild"
-    },
-    {
-      "id": 18,
-      "name": "Quiet"
-    },
-    {
-      "id": 19,
-      "name": "Bashful"
-    },
-    {
-      "id": 20,
-      "name": "Rash"
-    },
-    {
-      "id": 21,
-      "name": "Calm"
-    },
-    {
-      "id": 22,
-      "name": "Gentle"
-    },
-    {
-      "id": 23,
-      "name": "Sassy"
-    },
-    {
-      "id": 24,
-      "name": "Careful"
-    },
-    {
-      "id": 25,
-      "name": "Quirky"
-    }
-  ],
-  "abilities": [
+    "users": [
+        {
+        "id": 1,
+        "name": "Ash Ketchum",
+        "email": "ash@pallet.edu",
+        "formatId": 2
+        },
+        {
+        "id": 2,
+        "name": "Misty Waterflower",
+        "email": "misty@cerulean.edu",
+        "formatId": 2
+        },
+        {
+        "id": 3,
+        "name": "Brock Harrison",
+        "email": "brock@pewter.edu",
+        "formatId": 1
+        }
+    ],
+    "formats": [
+        {
+        "id": 1,
+        "name": "Singles"
+        },
+        {
+        "id": 2,
+        "name": "Doubles"
+        }
+    ],
+    "types": [
+        {
+        "id": 1,
+        "name": "Normal"
+        },
+        {
+        "id": 2,
+        "name": "Fire"
+        },
+        {
+        "id": 3,
+        "name": "Water"
+        },
+        {
+        "id": 4,
+        "name": "Grass"
+        },
+        {
+        "id": 5,
+        "name": "Electric"
+        },
+        {
+        "id": 6,
+        "name": "Ice"
+        },
+        {
+        "id": 7,
+        "name": "Fighting"
+        },
+        {
+        "id": 8,
+        "name": "Poison"
+        },
+        {
+        "id": 9,
+        "name": "Ground"
+        },
+        {
+        "id": 10,
+        "name": "Flying"
+        },
+        {
+        "id": 11,
+        "name": "Psychic"
+        },
+        {
+        "id": 12,
+        "name": "Bug"
+        },
+        {
+        "id": 13,
+        "name": "Rock"
+        },
+        {
+        "id": 14,
+        "name": "Ghost"
+        },
+        {
+        "id": 15,
+        "name": "Dragon"
+        },
+        {
+        "id": 16,
+        "name": "Dark"
+        },
+        {
+        "id": 17,
+        "name": "Steel"
+        },
+        {
+        "id": 18,
+        "name": "Fairy"
+        }
+    ],
+    "typeMatchups": [
+        { 
+            "id": 1, 
+            "typeId": 1, 
+            "strongAgainst": [], 
+            "weakAgainst": [7, 13] 
+        },
+        { 
+            "id": 2, 
+            "typeId": 2, 
+            "strongAgainst": [4, 6, 12, 17], 
+            "weakAgainst": [2, 3, 13] 
+        },
+        { 
+            "id": 3, 
+            "typeId": 3, 
+            "strongAgainst": [2, 9, 13], 
+            "weakAgainst": [3, 4, 5] 
+        },
+        { 
+            "id": 4, 
+            "typeId": 4, 
+            "strongAgainst": [3, 9], 
+            "weakAgainst": [2, 6, 8] 
+        },
+        { 
+            "id": 5, 
+            "typeId": 5, 
+            "strongAgainst": [3, 10], 
+            "weakAgainst": [9] 
+        },
+        { 
+            "id": 6, 
+            "typeId": 6, 
+            "strongAgainst": [4, 10, 15], 
+            "weakAgainst": [2, 17] 
+        },
+        { 
+            "id": 7, 
+            "typeId": 7, 
+            "strongAgainst": [1, 6, 13, 16, 17], 
+            "weakAgainst": [7, 11, 18] 
+        },
+        { 
+            "id": 8, 
+            "typeId": 8, 
+            "strongAgainst": [4, 18], 
+            "weakAgainst": [9, 11] 
+        },
+        { 
+            "id": 9, 
+            "typeId": 9, 
+            "strongAgainst": [2, 5, 13, 17], 
+            "weakAgainst": [3, 4] 
+        },
+        { 
+            "id": 10, 
+            "typeId": 10, 
+            "strongAgainst": [4, 7, 12], 
+            "weakAgainst": [5, 13, 17] 
+        },
+        { 
+            "id": 11, 
+            "typeId": 11, 
+            "strongAgainst": [7, 8], 
+            "weakAgainst": [12, 14, 16] 
+        },
+        { 
+            "id": 12, 
+            "typeId": 12, 
+            "strongAgainst": [4, 11, 16], 
+            "weakAgainst": [2, 10, 13] 
+        },
+        { 
+            "id": 13, 
+            "typeId": 13, 
+            "strongAgainst": [2, 6, 10, 17], 
+            "weakAgainst": [3, 4, 7, 17] 
+        },
+        { 
+            "id": 14, 
+            "typeId": 14, 
+            "strongAgainst": [11, 14], 
+            "weakAgainst": [14, 16, 18] 
+        },
+        { 
+            "id": 15, 
+            "typeId": 15, 
+            "strongAgainst": [15, 10], 
+            "weakAgainst": [6, 17, 18] 
+        },
+        { 
+            "id": 16, 
+            "typeId": 16, 
+            "strongAgainst": [11, 14], 
+            "weakAgainst": [7, 12, 18] 
+        },
+        { 
+            "id": 17, 
+            "typeId": 17, 
+            "strongAgainst": [6, 10, 13, 15, 18], 
+            "weakAgainst": [2, 7] 
+        },
+        { 
+            "id": 18, 
+            "typeId": 18, 
+            "strongAgainst": [7, 15, 16], 
+            "weakAgainst": [8, 17] 
+        }
+    ],
+    "natures": [
+        {
+            "id": 1,
+            "name": "Hardy"
+        },
+        {
+            "id": 2,
+            "name": "Lonely"
+        },
+        {
+            "id": 3,
+            "name": "Brave"
+        },
+        {
+            "id": 4,
+            "name": "Adamant"
+        },
+        {
+            "id": 5,
+            "name": "Naughty"
+        },
+        {
+            "id": 6,
+            "name": "Bold"
+        },
+        {
+            "id": 7,
+            "name": "Docile"
+        },
+        {
+            "id": 8,
+            "name": "Relaxed"
+        },
+        {
+            "id": 9,
+            "name": "Impish"
+        },
+        {
+            "id": 10,
+            "name": "Lax"
+        },
+        {
+            "id": 11,
+            "name": "Timid"
+        },
+        {
+            "id": 12,
+            "name": "Hasty"
+        },
+        {
+            "id": 13,
+            "name": "Serious"
+        },
+        {
+            "id": 14,
+            "name": "Jolly"
+        },
+        {
+            "id": 15,
+            "name": "Naive"
+        },
+        {
+            "id": 16,
+            "name": "Modest"
+        },
+        {
+            "id": 17,
+            "name": "Mild"
+        },
+        {
+            "id": 18,
+            "name": "Quiet"
+        },
+        {
+            "id": 19,
+            "name": "Bashful"
+        },
+        {
+            "id": 20,
+            "name": "Rash"
+        },
+        {
+            "id": 21,
+            "name": "Calm"
+        },
+        {
+            "id": 22,
+            "name": "Gentle"
+        },
+        {
+            "id": 23,
+            "name": "Sassy"
+        },
+        {
+            "id": 24,
+            "name": "Careful"
+        },
+        {
+            "id": 25,
+            "name": "Quirky"
+        }
+    ],
+    "abilities": [
     {
       "id": 1,
       "name": "Intimidate"
@@ -1940,7 +2050,13 @@
       "id": 1,
       "name": "Trick Room Terror",
       "userId": 1,
-      "formatId": 2
+      "formatId": 2,
+      "user": {
+        "id": 1,
+        "name": "Ash Ketchum",
+        "email": "ash@pallet.edu",
+        "formatId": 2
+      }
     },
     {
       "id": 2,
@@ -1955,9 +2071,16 @@
       "formatId": 1
     },
     {
-      "name": "Plumbus",
+      "name": "Grunglestiltskin",
+      "userId": 1,
       "formatId": 1,
-      "id": 4
+      "id": 4,
+      "user": {
+        "id": 1,
+        "name": "Ash Ketchum",
+        "email": "ash@pallet.edu",
+        "formatId": 2
+      }
     }
   ],
   "pokemonTeams": [
@@ -1967,7 +2090,20 @@
       "teamId": 1,
       "natureId": 3,
       "itemId": 7,
-      "abilityId": 1
+      "abilityId": 1,
+      "pokemon": {
+        "id": 1,
+        "name": "Incineroar",
+        "baseStats": {
+          "hp": 95,
+          "attack": 115,
+          "defense": 90,
+          "specialAttack": 80,
+          "specialDefense": 90,
+          "speed": 60
+        },
+        "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/727.png"
+      }
     },
     {
       "id": 2,
@@ -2088,6 +2224,36 @@
       "natureId": 14,
       "itemId": 9,
       "abilityId": 37
+    },
+    {
+      "pokemonId": 1,
+      "teamId": 4,
+      "id": 17
+    },
+    {
+      "pokemonId": 16,
+      "teamId": 4,
+      "id": 18
+    },
+    {
+      "pokemonId": 23,
+      "teamId": 4,
+      "id": 19
+    },
+    {
+      "pokemonId": 49,
+      "teamId": 4,
+      "id": 20
+    },
+    {
+      "pokemonId": 3,
+      "teamId": 4,
+      "id": 21
+    },
+    {
+      "pokemonId": 14,
+      "teamId": 4,
+      "id": 22
     }
   ],
   "pokemonMoves": [
