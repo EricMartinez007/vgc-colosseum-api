@@ -109,8 +109,7 @@
       "typeId": 1,
       "strongAgainst": [],
       "weakAgainst": [
-        7,
-        13
+        7
       ]
     },
     {
@@ -123,8 +122,8 @@
         17
       ],
       "weakAgainst": [
-        2,
         3,
+        9,
         13
       ]
     },
@@ -152,7 +151,9 @@
       "weakAgainst": [
         2,
         6,
-        8
+        8,
+        10,
+        12
       ]
     },
     {
@@ -176,6 +177,8 @@
       ],
       "weakAgainst": [
         2,
+        7,
+        13,
         17
       ]
     },
@@ -190,7 +193,7 @@
         17
       ],
       "weakAgainst": [
-        7,
+        10,
         11,
         18
       ]
@@ -213,12 +216,14 @@
       "strongAgainst": [
         2,
         5,
+        8,
         13,
         17
       ],
       "weakAgainst": [
         3,
-        4
+        4,
+        6
       ]
     },
     {
@@ -231,8 +236,8 @@
       ],
       "weakAgainst": [
         5,
-        13,
-        17
+        6,
+        13
       ]
     },
     {
@@ -269,12 +274,14 @@
         2,
         6,
         10,
+        12,
         17
       ],
       "weakAgainst": [
         3,
         4,
         7,
+        9,
         17
       ]
     },
@@ -287,16 +294,14 @@
       ],
       "weakAgainst": [
         14,
-        16,
-        18
+        16
       ]
     },
     {
       "id": 15,
       "typeId": 15,
       "strongAgainst": [
-        15,
-        10
+        15
       ],
       "weakAgainst": [
         6,
@@ -324,12 +329,12 @@
         6,
         10,
         13,
-        15,
         18
       ],
       "weakAgainst": [
         2,
-        7
+        7,
+        9
       ]
     },
     {
@@ -773,567 +778,567 @@
     }
   ],
   "moves": [
-    { 
-      "id": 1, 
-      "name": "Flare Blitz", 
-      "power": 120, 
-      "typeId": 2, 
-      "category": "physical" 
-    },
-    { 
-      "id": 2, 
-      "name": "Close Combat", 
-      "power": 120, 
-      "typeId": 7, 
-      "category": "physical" 
-    },
-    { 
-      "id": 3, 
-      "name": "Extreme Speed", 
-      "power": 80, 
-      "typeId": 1, 
-      "category": "physical" 
-    },
-    { 
-      "id": 4, 
-      "name": "Fake Out", 
-      "power": 40, 
-      "typeId": 1, 
-      "category": "physical" 
-    },
-    { 
-      "id": 5, 
-      "name": "U-turn", 
-      "power": 70, 
-      "typeId": 12, 
-      "category": "physical" 
-    },
-    { 
-      "id": 6, 
-      "name": "Protect", 
-      "power": 0, 
-      "typeId": 1, 
-      "category": "status" 
-    },
-    { 
-      "id": 7, 
-      "name": "Earthquake", 
-      "power": 100, 
-      "typeId": 9, 
-      "category": "physical" 
-    },
-    { 
-      "id": 8, 
-      "name": "Rock Slide", 
-      "power": 75, 
-      "typeId": 13, 
-      "category": "physical" 
-    },
-    { 
-      "id": 9, 
-      "name": "Tailwind", 
-      "power": 0, 
-      "typeId": 10, 
-      "category": "status" 
-    },
-    { 
-      "id": 10, 
-      "name": "Icy Wind", 
-      "power": 55, 
-      "typeId": 6, 
-      "category": "special" 
-    },
-    { 
-      "id": 11, 
-      "name": "Thunderbolt", 
-      "power": 90, 
-      "typeId": 5, 
-      "category": "special" 
-    },
-    { 
-      "id": 12, 
-      "name": "Ice Beam", 
-      "power": 90, 
-      "typeId": 6, 
-      "category": "special" 
-    },
-    { 
-      "id": 13, 
-      "name": "Surf", 
-      "power": 90, 
-      "typeId": 3, 
-      "category": "special" 
-    },
-    { 
-      "id": 14, 
-      "name": "Hyper Voice", 
-      "power": 90, 
-      "typeId": 1, 
-      "category": "special" 
-    },
-    { 
-      "id": 15, 
-      "name": "Moonblast", 
-      "power": 95, 
-      "typeId": 18, 
-      "category": "special" 
-    },
-    { 
-      "id": 16, 
-      "name": "Dazzling Gleam", 
-      "power": 80, 
-      "typeId": 18, 
-      "category": "special" 
-    },
-    { 
-      "id": 17, 
-      "name": "Shadow Ball", 
-      "power": 80, 
-      "typeId": 14, 
-      "category": "special" 
-    },
-    { 
-      "id": 18, 
-      "name": "Energy Ball", 
-      "power": 90, 
-      "typeId": 4, 
-      "category": "special" 
-    },
-    { 
-      "id": 19, 
-      "name": "Psychic", 
-      "power": 90, 
-      "typeId": 11, 
-      "category": "special" 
-    },
-    { 
-      "id": 20, 
-      "name": "Trick Room", 
-      "power": 0, 
-      "typeId": 11, 
-      "category": "status" 
-    },
-    { 
-      "id": 21, 
-      "name": "Follow Me", 
-      "power": 0, 
-      "typeId": 1, 
-      "category": "status" 
-    },
-    { 
-      "id": 22, 
-      "name": "Rage Powder", 
-      "power": 0, 
-      "typeId": 12, 
-      "category": "status" 
-    },
-    { 
-      "id": 23, 
-      "name": "Wide Guard", 
-      "power": 0, 
-      "typeId": 13, 
-      "category": "status" 
-    },
-    { 
-      "id": 24, 
-      "name": "Helping Hand", 
-      "power": 0, 
-      "typeId": 1, 
-      "category": "status" 
-    },
-    { 
-      "id": 25, 
-      "name": "Dragon Dance", 
-      "power": 0, 
-      "typeId": 15, 
-      "category": "status" 
-    },
-    { 
-      "id": 26, 
-      "name": "Swords Dance", 
-      "power": 0, 
-      "typeId": 1, 
-      "category": "status" 
-    },
-    { 
-      "id": 27, 
-      "name": "Nasty Plot", 
-      "power": 0, 
-      "typeId": 16, 
-      "category": "status" 
-    },
-    { 
-      "id": 28, 
-      "name": "Will-O-Wisp", 
-      "power": 0, 
-      "typeId": 2, 
-      "category": "status" 
-    },
-    { 
-      "id": 29, 
-      "name": "Thunder Wave", 
-      "power": 0, 
-      "typeId": 5, 
-      "category": "status" 
-    },
-    { 
-      "id": 30, 
-      "name": "Spore", 
-      "power": 0, 
-      "typeId": 4, 
-      "category": "status" 
-    },
-    { 
-      "id": 31, 
-      "name": "Knock Off", 
-      "power": 65, 
-      "typeId": 16, 
-      "category": "physical" 
-    },
-    { 
-      "id": 32, 
-      "name": "Sucker Punch", 
-      "power": 70, 
-      "typeId": 16, 
-      "category": "physical" 
-    },
-    { 
-      "id": 33, 
-      "name": "Play Rough", 
-      "power": 90, 
-      "typeId": 18, 
-      "category": "physical" 
-    },
-    { 
-      "id": 34, 
-      "name": "Body Press", 
-      "power": 80, 
-      "typeId": 7, 
-      "category": "physical" 
-    },
-    { 
-      "id": 35, 
-      "name": "Heavy Slam", 
-      "power": 100, 
-      "typeId": 17, 
-      "category": "physical" 
-    },
-    { 
-      "id": 36, 
-      "name": "Iron Head", 
-      "power": 80, 
-      "typeId": 17, 
-      "category": "physical" 
-    },
-    { 
-      "id": 37, 
-      "name": "Heat Wave", 
-      "power": 95, 
-      "typeId": 2, 
-      "category": "special" 
-    },
-    { 
-      "id": 38, 
-      "name": "Draco Meteor", 
-      "power": 130, 
-      "typeId": 15, 
-      "category": "special" 
-    },
-    { 
-      "id": 39, 
-      "name": "Dragon Claw", 
-      "power": 80, 
-      "typeId": 15, 
-      "category": "physical" 
-    },
-    { 
-      "id": 40, 
-      "name": "Brave Bird", 
-      "power": 120, 
-      "typeId": 10, 
-      "category": "physical" 
-    },
-    { 
-      "id": 41, 
-      "name": "Glacial Lance", 
-      "power": 120, 
-      "typeId": 6, 
-      "category": "physical" 
-    },
-    { 
-      "id": 42, 
-      "name": "Astral Barrage", 
-      "power": 120, 
-      "typeId": 14, 
-      "category": "special" 
-    },
-    { 
-      "id": 43, 
-      "name": "Sacred Sword", 
-      "power": 90, 
-      "typeId": 7, 
-      "category": "physical" 
-    },
-    { 
-      "id": 44, 
-      "name": "Behemoth Blade", 
-      "power": 100, 
-      "typeId": 17, 
-      "category": "physical" 
-    },
-    { 
-      "id": 45, 
-      "name": "Behemoth Bash", 
-      "power": 100, 
-      "typeId": 17, 
-      "category": "physical" 
-    },
-    { 
-      "id": 46, 
-      "name": "Origin Pulse", 
-      "power": 110, 
-      "typeId": 3, 
-      "category": "special" 
-    },
-    { 
-      "id": 47, 
-      "name": "Precipice Blades", 
-      "power": 120, 
-      "typeId": 9, 
-      "category": "physical" 
-    },
-    { 
-      "id": 48, 
-      "name": "Psystrike", 
-      "power": 100, 
-      "typeId": 11, 
-      "category": "special" 
-    },
-    { 
-      "id": 49, 
-      "name": "Calm Mind", 
-      "power": 0, 
-      "typeId": 11, 
-      "category": "status" 
-    },
-    { 
-      "id": 50, 
-      "name": "Stealth Rock", 
-      "power": 0, 
-      "typeId": 13, 
-      "category": "status" 
-    },
-    { 
-      "id": 51, 
-      "name": "Ivy Cudgel", 
-      "power": 100, 
-      "typeId": 4, 
-      "category": "physical" 
-    },
-    { 
-      "id": 52, 
-      "name": "Aqua Jet", 
-      "power": 40, 
-      "typeId": 3, 
-      "category": "physical" 
-    },
-    { 
-      "id": 53, 
-      "name": "Jet Punch", 
-      "power": 60, 
-      "typeId": 3, 
-      "category": "physical" 
-    },
-    { 
-      "id": 54, 
-      "name": "Drain Punch", 
-      "power": 75, 
-      "typeId": 7, 
-      "category": "physical" 
-    },
-    { 
-      "id": 55, 
-      "name": "Ice Punch", 
-      "power": 75, 
-      "typeId": 6, 
-      "category": "physical" 
-    },
-    { 
-      "id": 56, 
-      "name": "Thunder Punch", 
-      "power": 75, 
-      "typeId": 5, 
-      "category": "physical" 
-    },
-    { 
-      "id": 57, 
-      "name": "Fire Punch", 
-      "power": 75, 
-      "typeId": 2, 
-      "category": "physical" 
-    },
-    { 
-      "id": 58, 
-      "name": "Shadow Sneak", 
-      "power": 40, 
-      "typeId": 14, 
-      "category": "physical" 
-    },
-    { 
-      "id": 59, 
-      "name": "Poltergeist", 
-      "power": 110, 
-      "typeId": 14, 
-      "category": "physical" 
-    },
-    { 
-      "id": 60, 
-      "name": "Make It Rain", 
-      "power": 120, 
-      "typeId": 17, 
-      "category": "special" 
-    },
-    { 
-      "id": 61, 
-      "name": "Decorate", 
-      "power": 0, 
-      "typeId": 18, 
-      "category": "status" 
-    },
-    { 
-      "id": 62, 
-      "name": "Instruct", 
-      "power": 0, 
-      "typeId": 11, 
-      "category": "status" 
-    },
-    { 
-      "id": 63, 
-      "name": "Encore", 
-      "power": 0, 
-      "typeId": 1, 
-      "category": "status" 
-    },
-    { 
-      "id": 64, 
-      "name": "Disable", 
-      "power": 0, 
-      "typeId": 1, 
-      "category": "status" 
-    },
-    { 
-      "id": 65, 
-      "name": "Mud Shot", 
-      "power": 55, 
-      "typeId": 9, 
-      "category": "special" 
-    },
-    { 
-      "id": 66, 
-      "name": "Body Slam", 
-      "power": 85, 
-      "typeId": 1, 
-      "category": "physical" 
-    },
-    { 
-      "id": 67, 
-      "name": "Double-Edge", 
-      "power": 120, 
-      "typeId": 1, 
-      "category": "physical" 
-    },
-    { 
-      "id": 68, 
-      "name": "Facade", 
-      "power": 70, 
-      "typeId": 1, 
-      "category": "physical" 
-    },
-    { 
-      "id": 69, 
-      "name": "Stomping Tantrum", 
-      "power": 75, 
-      "typeId": 9, 
-      "category": "physical" 
-    },
-    { 
-      "id": 70, 
-      "name": "High Horsepower", 
-      "power": 95, 
-      "typeId": 9, 
-      "category": "physical" 
-    },
-    { 
-      "id": 71, 
-      "name": "Hammer Arm", 
-      "power": 100, 
-      "typeId": 7, 
-      "category": "physical" 
-    },
-    { 
-      "id": 72, 
-      "name": "Superpower", 
-      "power": 120, 
-      "typeId": 7, 
-      "category": "physical" 
-    },
-    { 
-      "id": 73, 
-      "name": "Dark Pulse", 
-      "power": 80, 
-      "typeId": 16, 
-      "category": "special" 
-    },
-    { 
-      "id": 74, 
-      "name": "Foul Play", 
-      "power": 95, 
-      "typeId": 16, 
-      "category": "physical" 
-    },
-    { 
-      "id": 75, 
-      "name": "Ruination", 
-      "power": 0, 
-      "typeId": 16, 
-      "category": "special" 
-    },
-    { 
-      "id": 76, 
-      "name": "Leech Seed", 
-      "power": 0, 
-      "typeId": 4, 
-      "category": "status" 
-    },
-    { 
-      "id": 77, 
-      "name": "Grassy Glide", 
-      "power": 70, 
-      "typeId": 4, 
-      "category": "physical" 
-    },
-    { 
-      "id": 78, 
-      "name": "Wood Hammer", 
-      "power": 120, 
-      "typeId": 4, 
-      "category": "physical" 
-    },
-    { 
-      "id": 79, 
-      "name": "Steelbeam", 
-      "power": 140, 
-      "typeId": 17, 
-      "category": "special" 
-    },
-    { 
-      "id": 80, 
-      "name": "Rage Fist", 
-      "power": 50, 
-      "typeId": 7, 
-      "category": "physical" 
+    {
+      "id": 1,
+      "name": "Flare Blitz",
+      "power": 120,
+      "typeId": 2,
+      "category": "physical"
+    },
+    {
+      "id": 2,
+      "name": "Close Combat",
+      "power": 120,
+      "typeId": 7,
+      "category": "physical"
+    },
+    {
+      "id": 3,
+      "name": "Extreme Speed",
+      "power": 80,
+      "typeId": 1,
+      "category": "physical"
+    },
+    {
+      "id": 4,
+      "name": "Fake Out",
+      "power": 40,
+      "typeId": 1,
+      "category": "physical"
+    },
+    {
+      "id": 5,
+      "name": "U-turn",
+      "power": 70,
+      "typeId": 12,
+      "category": "physical"
+    },
+    {
+      "id": 6,
+      "name": "Protect",
+      "power": 0,
+      "typeId": 1,
+      "category": "status"
+    },
+    {
+      "id": 7,
+      "name": "Earthquake",
+      "power": 100,
+      "typeId": 9,
+      "category": "physical"
+    },
+    {
+      "id": 8,
+      "name": "Rock Slide",
+      "power": 75,
+      "typeId": 13,
+      "category": "physical"
+    },
+    {
+      "id": 9,
+      "name": "Tailwind",
+      "power": 0,
+      "typeId": 10,
+      "category": "status"
+    },
+    {
+      "id": 10,
+      "name": "Icy Wind",
+      "power": 55,
+      "typeId": 6,
+      "category": "special"
+    },
+    {
+      "id": 11,
+      "name": "Thunderbolt",
+      "power": 90,
+      "typeId": 5,
+      "category": "special"
+    },
+    {
+      "id": 12,
+      "name": "Ice Beam",
+      "power": 90,
+      "typeId": 6,
+      "category": "special"
+    },
+    {
+      "id": 13,
+      "name": "Surf",
+      "power": 90,
+      "typeId": 3,
+      "category": "special"
+    },
+    {
+      "id": 14,
+      "name": "Hyper Voice",
+      "power": 90,
+      "typeId": 1,
+      "category": "special"
+    },
+    {
+      "id": 15,
+      "name": "Moonblast",
+      "power": 95,
+      "typeId": 18,
+      "category": "special"
+    },
+    {
+      "id": 16,
+      "name": "Dazzling Gleam",
+      "power": 80,
+      "typeId": 18,
+      "category": "special"
+    },
+    {
+      "id": 17,
+      "name": "Shadow Ball",
+      "power": 80,
+      "typeId": 14,
+      "category": "special"
+    },
+    {
+      "id": 18,
+      "name": "Energy Ball",
+      "power": 90,
+      "typeId": 4,
+      "category": "special"
+    },
+    {
+      "id": 19,
+      "name": "Psychic",
+      "power": 90,
+      "typeId": 11,
+      "category": "special"
+    },
+    {
+      "id": 20,
+      "name": "Trick Room",
+      "power": 0,
+      "typeId": 11,
+      "category": "status"
+    },
+    {
+      "id": 21,
+      "name": "Follow Me",
+      "power": 0,
+      "typeId": 1,
+      "category": "status"
+    },
+    {
+      "id": 22,
+      "name": "Rage Powder",
+      "power": 0,
+      "typeId": 12,
+      "category": "status"
+    },
+    {
+      "id": 23,
+      "name": "Wide Guard",
+      "power": 0,
+      "typeId": 13,
+      "category": "status"
+    },
+    {
+      "id": 24,
+      "name": "Helping Hand",
+      "power": 0,
+      "typeId": 1,
+      "category": "status"
+    },
+    {
+      "id": 25,
+      "name": "Dragon Dance",
+      "power": 0,
+      "typeId": 15,
+      "category": "status"
+    },
+    {
+      "id": 26,
+      "name": "Swords Dance",
+      "power": 0,
+      "typeId": 1,
+      "category": "status"
+    },
+    {
+      "id": 27,
+      "name": "Nasty Plot",
+      "power": 0,
+      "typeId": 16,
+      "category": "status"
+    },
+    {
+      "id": 28,
+      "name": "Will-O-Wisp",
+      "power": 0,
+      "typeId": 2,
+      "category": "status"
+    },
+    {
+      "id": 29,
+      "name": "Thunder Wave",
+      "power": 0,
+      "typeId": 5,
+      "category": "status"
+    },
+    {
+      "id": 30,
+      "name": "Spore",
+      "power": 0,
+      "typeId": 4,
+      "category": "status"
+    },
+    {
+      "id": 31,
+      "name": "Knock Off",
+      "power": 65,
+      "typeId": 16,
+      "category": "physical"
+    },
+    {
+      "id": 32,
+      "name": "Sucker Punch",
+      "power": 70,
+      "typeId": 16,
+      "category": "physical"
+    },
+    {
+      "id": 33,
+      "name": "Play Rough",
+      "power": 90,
+      "typeId": 18,
+      "category": "physical"
+    },
+    {
+      "id": 34,
+      "name": "Body Press",
+      "power": 80,
+      "typeId": 7,
+      "category": "physical"
+    },
+    {
+      "id": 35,
+      "name": "Heavy Slam",
+      "power": 100,
+      "typeId": 17,
+      "category": "physical"
+    },
+    {
+      "id": 36,
+      "name": "Iron Head",
+      "power": 80,
+      "typeId": 17,
+      "category": "physical"
+    },
+    {
+      "id": 37,
+      "name": "Heat Wave",
+      "power": 95,
+      "typeId": 2,
+      "category": "special"
+    },
+    {
+      "id": 38,
+      "name": "Draco Meteor",
+      "power": 130,
+      "typeId": 15,
+      "category": "special"
+    },
+    {
+      "id": 39,
+      "name": "Dragon Claw",
+      "power": 80,
+      "typeId": 15,
+      "category": "physical"
+    },
+    {
+      "id": 40,
+      "name": "Brave Bird",
+      "power": 120,
+      "typeId": 10,
+      "category": "physical"
+    },
+    {
+      "id": 41,
+      "name": "Glacial Lance",
+      "power": 120,
+      "typeId": 6,
+      "category": "physical"
+    },
+    {
+      "id": 42,
+      "name": "Astral Barrage",
+      "power": 120,
+      "typeId": 14,
+      "category": "special"
+    },
+    {
+      "id": 43,
+      "name": "Sacred Sword",
+      "power": 90,
+      "typeId": 7,
+      "category": "physical"
+    },
+    {
+      "id": 44,
+      "name": "Behemoth Blade",
+      "power": 100,
+      "typeId": 17,
+      "category": "physical"
+    },
+    {
+      "id": 45,
+      "name": "Behemoth Bash",
+      "power": 100,
+      "typeId": 17,
+      "category": "physical"
+    },
+    {
+      "id": 46,
+      "name": "Origin Pulse",
+      "power": 110,
+      "typeId": 3,
+      "category": "special"
+    },
+    {
+      "id": 47,
+      "name": "Precipice Blades",
+      "power": 120,
+      "typeId": 9,
+      "category": "physical"
+    },
+    {
+      "id": 48,
+      "name": "Psystrike",
+      "power": 100,
+      "typeId": 11,
+      "category": "special"
+    },
+    {
+      "id": 49,
+      "name": "Calm Mind",
+      "power": 0,
+      "typeId": 11,
+      "category": "status"
+    },
+    {
+      "id": 50,
+      "name": "Stealth Rock",
+      "power": 0,
+      "typeId": 13,
+      "category": "status"
+    },
+    {
+      "id": 51,
+      "name": "Ivy Cudgel",
+      "power": 100,
+      "typeId": 4,
+      "category": "physical"
+    },
+    {
+      "id": 52,
+      "name": "Aqua Jet",
+      "power": 40,
+      "typeId": 3,
+      "category": "physical"
+    },
+    {
+      "id": 53,
+      "name": "Jet Punch",
+      "power": 60,
+      "typeId": 3,
+      "category": "physical"
+    },
+    {
+      "id": 54,
+      "name": "Drain Punch",
+      "power": 75,
+      "typeId": 7,
+      "category": "physical"
+    },
+    {
+      "id": 55,
+      "name": "Ice Punch",
+      "power": 75,
+      "typeId": 6,
+      "category": "physical"
+    },
+    {
+      "id": 56,
+      "name": "Thunder Punch",
+      "power": 75,
+      "typeId": 5,
+      "category": "physical"
+    },
+    {
+      "id": 57,
+      "name": "Fire Punch",
+      "power": 75,
+      "typeId": 2,
+      "category": "physical"
+    },
+    {
+      "id": 58,
+      "name": "Shadow Sneak",
+      "power": 40,
+      "typeId": 14,
+      "category": "physical"
+    },
+    {
+      "id": 59,
+      "name": "Poltergeist",
+      "power": 110,
+      "typeId": 14,
+      "category": "physical"
+    },
+    {
+      "id": 60,
+      "name": "Make It Rain",
+      "power": 120,
+      "typeId": 17,
+      "category": "special"
+    },
+    {
+      "id": 61,
+      "name": "Decorate",
+      "power": 0,
+      "typeId": 18,
+      "category": "status"
+    },
+    {
+      "id": 62,
+      "name": "Instruct",
+      "power": 0,
+      "typeId": 11,
+      "category": "status"
+    },
+    {
+      "id": 63,
+      "name": "Encore",
+      "power": 0,
+      "typeId": 1,
+      "category": "status"
+    },
+    {
+      "id": 64,
+      "name": "Disable",
+      "power": 0,
+      "typeId": 1,
+      "category": "status"
+    },
+    {
+      "id": 65,
+      "name": "Mud Shot",
+      "power": 55,
+      "typeId": 9,
+      "category": "special"
+    },
+    {
+      "id": 66,
+      "name": "Body Slam",
+      "power": 85,
+      "typeId": 1,
+      "category": "physical"
+    },
+    {
+      "id": 67,
+      "name": "Double-Edge",
+      "power": 120,
+      "typeId": 1,
+      "category": "physical"
+    },
+    {
+      "id": 68,
+      "name": "Facade",
+      "power": 70,
+      "typeId": 1,
+      "category": "physical"
+    },
+    {
+      "id": 69,
+      "name": "Stomping Tantrum",
+      "power": 75,
+      "typeId": 9,
+      "category": "physical"
+    },
+    {
+      "id": 70,
+      "name": "High Horsepower",
+      "power": 95,
+      "typeId": 9,
+      "category": "physical"
+    },
+    {
+      "id": 71,
+      "name": "Hammer Arm",
+      "power": 100,
+      "typeId": 7,
+      "category": "physical"
+    },
+    {
+      "id": 72,
+      "name": "Superpower",
+      "power": 120,
+      "typeId": 7,
+      "category": "physical"
+    },
+    {
+      "id": 73,
+      "name": "Dark Pulse",
+      "power": 80,
+      "typeId": 16,
+      "category": "special"
+    },
+    {
+      "id": 74,
+      "name": "Foul Play",
+      "power": 95,
+      "typeId": 16,
+      "category": "physical"
+    },
+    {
+      "id": 75,
+      "name": "Ruination",
+      "power": 0,
+      "typeId": 16,
+      "category": "special"
+    },
+    {
+      "id": 76,
+      "name": "Leech Seed",
+      "power": 0,
+      "typeId": 4,
+      "category": "status"
+    },
+    {
+      "id": 77,
+      "name": "Grassy Glide",
+      "power": 70,
+      "typeId": 4,
+      "category": "physical"
+    },
+    {
+      "id": 78,
+      "name": "Wood Hammer",
+      "power": 120,
+      "typeId": 4,
+      "category": "physical"
+    },
+    {
+      "id": 79,
+      "name": "Steelbeam",
+      "power": 140,
+      "typeId": 17,
+      "category": "special"
+    },
+    {
+      "id": 80,
+      "name": "Rage Fist",
+      "power": 50,
+      "typeId": 7,
+      "category": "physical"
     }
-],
+  ],
   "pokemon": [
     {
       "id": 1,
@@ -3569,6 +3574,11 @@
       "userId": 1,
       "teamId": 2,
       "id": 6
+    },
+    {
+      "userId": 1,
+      "teamId": 3,
+      "id": 7
     }
   ],
   "comments": [
