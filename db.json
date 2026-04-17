@@ -2469,7 +2469,7 @@
     {
       "name": "Plumbus",
       "userId": 1,
-      "formatId": 1,
+      "formatId": 2,
       "id": 4,
       "likes": [],
       "user": {
@@ -2544,7 +2544,32 @@
       "defEv": 0,
       "spAtkEv": 0,
       "spDefEv": 0,
-      "spdEv": 0
+      "spdEv": 0,
+      "pokemon": {
+        "id": 12,
+        "name": "Iron Hands",
+        "baseStats": {
+          "hp": 154,
+          "attack": 140,
+          "defense": 108,
+          "specialAttack": 50,
+          "specialDefense": 68,
+          "speed": 50
+        },
+        "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/992.png"
+      },
+      "ability": {
+        "id": 11,
+        "name": "Quark Drive"
+      },
+      "nature": {
+        "id": 3,
+        "name": "Brave"
+      },
+      "item": {
+        "id": 5,
+        "name": "Assault Vest"
+      }
     },
     {
       "id": 3,
@@ -2584,7 +2609,32 @@
       "defEv": 0,
       "spAtkEv": 0,
       "spDefEv": 0,
-      "spdEv": 0
+      "spdEv": 0,
+      "pokemon": {
+        "id": 38,
+        "name": "Porygon2",
+        "baseStats": {
+          "hp": 85,
+          "attack": 80,
+          "defense": 90,
+          "specialAttack": 105,
+          "specialDefense": 95,
+          "speed": 60
+        },
+        "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/233.png"
+      },
+      "ability": {
+        "id": 39,
+        "name": "Download"
+      },
+      "nature": {
+        "id": 8,
+        "name": "Relaxed"
+      },
+      "item": {
+        "id": 24,
+        "name": "Eviolite"
+      }
     },
     {
       "id": 5,
@@ -2604,7 +2654,32 @@
       "defEv": 0,
       "spAtkEv": 0,
       "spDefEv": 0,
-      "spdEv": 0
+      "spdEv": 0,
+      "pokemon": {
+        "id": 45,
+        "name": "Ursaluna",
+        "baseStats": {
+          "hp": 130,
+          "attack": 140,
+          "defense": 105,
+          "specialAttack": 45,
+          "specialDefense": 80,
+          "speed": 50
+        },
+        "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/901.png"
+      },
+      "ability": {
+        "id": 44,
+        "name": "Guts"
+      },
+      "nature": {
+        "id": 3,
+        "name": "Brave"
+      },
+      "item": {
+        "id": 1,
+        "name": "Life Orb"
+      }
     },
     {
       "id": 6,
@@ -2624,7 +2699,32 @@
       "defEv": 0,
       "spAtkEv": 0,
       "spDefEv": 0,
-      "spdEv": 0
+      "spdEv": 0,
+      "pokemon": {
+        "id": 37,
+        "name": "Cresselia",
+        "baseStats": {
+          "hp": 120,
+          "attack": 70,
+          "defense": 120,
+          "specialAttack": 75,
+          "specialDefense": 130,
+          "speed": 85
+        },
+        "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/488.png"
+      },
+      "ability": {
+        "id": 13,
+        "name": "Levitate"
+      },
+      "nature": {
+        "id": 8,
+        "name": "Relaxed"
+      },
+      "item": {
+        "id": 10,
+        "name": "Leftovers"
+      }
     },
     {
       "id": 7,
@@ -3114,26 +3214,6 @@
   ],
   "pokemonMoves": [
     {
-      "id": 5,
-      "pokemonTeamId": 2,
-      "moveId": 34
-    },
-    {
-      "id": 6,
-      "pokemonTeamId": 2,
-      "moveId": 35
-    },
-    {
-      "id": 7,
-      "pokemonTeamId": 2,
-      "moveId": 7
-    },
-    {
-      "id": 8,
-      "pokemonTeamId": 2,
-      "moveId": 6
-    },
-    {
       "id": 9,
       "pokemonTeamId": 3,
       "moveId": 22
@@ -3151,66 +3231,6 @@
     {
       "id": 12,
       "pokemonTeamId": 3,
-      "moveId": 6
-    },
-    {
-      "id": 13,
-      "pokemonTeamId": 4,
-      "moveId": 20
-    },
-    {
-      "id": 14,
-      "pokemonTeamId": 4,
-      "moveId": 19
-    },
-    {
-      "id": 15,
-      "pokemonTeamId": 4,
-      "moveId": 17
-    },
-    {
-      "id": 16,
-      "pokemonTeamId": 4,
-      "moveId": 6
-    },
-    {
-      "id": 17,
-      "pokemonTeamId": 5,
-      "moveId": 70
-    },
-    {
-      "id": 18,
-      "pokemonTeamId": 5,
-      "moveId": 68
-    },
-    {
-      "id": 19,
-      "pokemonTeamId": 5,
-      "moveId": 54
-    },
-    {
-      "id": 20,
-      "pokemonTeamId": 5,
-      "moveId": 6
-    },
-    {
-      "id": 21,
-      "pokemonTeamId": 6,
-      "moveId": 20
-    },
-    {
-      "id": 22,
-      "pokemonTeamId": 6,
-      "moveId": 19
-    },
-    {
-      "id": 23,
-      "pokemonTeamId": 6,
-      "moveId": 49
-    },
-    {
-      "id": 24,
-      "pokemonTeamId": 6,
       "moveId": 6
     },
     {
@@ -3414,199 +3434,264 @@
       "moveId": 6
     },
     {
+      "id": 65,
       "pokemonTeamId": 17,
-      "moveId": 38,
-      "id": 65
+      "moveId": 38
     },
     {
+      "id": 66,
       "pokemonTeamId": 17,
-      "moveId": 25,
-      "id": 66
+      "moveId": 25
     },
     {
+      "id": 67,
       "pokemonTeamId": 17,
-      "moveId": 73,
-      "id": 67
+      "moveId": 73
     },
     {
+      "id": 68,
       "pokemonTeamId": 17,
-      "moveId": 6,
-      "id": 68
+      "moveId": 6
     },
     {
+      "id": 69,
       "pokemonTeamId": 18,
-      "moveId": 30,
-      "id": 69
+      "moveId": 30
     },
     {
+      "id": 70,
       "pokemonTeamId": 18,
-      "moveId": 22,
-      "id": 70
+      "moveId": 22
     },
     {
+      "id": 71,
       "pokemonTeamId": 18,
+      "moveId": 54
+    },
+    {
+      "id": 72,
+      "pokemonTeamId": 18,
+      "moveId": 6
+    },
+    {
+      "id": 81,
+      "pokemonTeamId": 20,
+      "moveId": 42
+    },
+    {
+      "id": 82,
+      "pokemonTeamId": 20,
+      "moveId": 27
+    },
+    {
+      "id": 83,
+      "pokemonTeamId": 20,
+      "moveId": 19
+    },
+    {
+      "id": 84,
+      "pokemonTeamId": 20,
+      "moveId": 6
+    },
+    {
+      "id": 89,
+      "pokemonTeamId": 19,
+      "moveId": 4
+    },
+    {
+      "id": 90,
+      "pokemonTeamId": 19,
+      "moveId": 31
+    },
+    {
+      "id": 91,
+      "pokemonTeamId": 19,
+      "moveId": 2
+    },
+    {
+      "id": 92,
+      "pokemonTeamId": 19,
+      "moveId": 6
+    },
+    {
+      "id": 102,
+      "pokemonTeamId": 24,
+      "moveId": 53
+    },
+    {
+      "id": 103,
+      "pokemonTeamId": 24,
+      "moveId": 2
+    },
+    {
+      "id": 104,
+      "pokemonTeamId": 24,
+      "moveId": 6
+    },
+    {
+      "id": 105,
+      "pokemonTeamId": 24,
+      "moveId": 56
+    },
+    {
+      "id": 107,
+      "pokemonTeamId": 22,
+      "moveId": 51
+    },
+    {
+      "id": 108,
+      "pokemonTeamId": 22,
+      "moveId": 76
+    },
+    {
+      "id": 109,
+      "pokemonTeamId": 22,
+      "moveId": 6
+    },
+    {
+      "id": 110,
+      "pokemonTeamId": 22,
+      "moveId": 78
+    },
+    {
+      "id": 112,
+      "pokemonTeamId": 21,
+      "moveId": 77
+    },
+    {
+      "id": 113,
+      "pokemonTeamId": 21,
+      "moveId": 31
+    },
+    {
+      "id": 114,
+      "pokemonTeamId": 21,
+      "moveId": 6
+    },
+    {
+      "id": 115,
+      "pokemonTeamId": 21,
+      "moveId": 5
+    },
+    {
+      "id": 116,
+      "pokemonTeamId": 23,
+      "moveId": 34
+    },
+    {
+      "id": 117,
+      "pokemonTeamId": 23,
+      "moveId": 35
+    },
+    {
+      "id": 118,
+      "pokemonTeamId": 23,
+      "moveId": 6
+    },
+    {
+      "id": 119,
+      "pokemonTeamId": 23,
+      "moveId": 36
+    },
+    {
+      "id": 120,
+      "pokemonTeamId": 1,
+      "moveId": 31
+    },
+    {
+      "id": 121,
+      "pokemonTeamId": 1,
+      "moveId": 6
+    },
+    {
+      "id": 122,
+      "pokemonTeamId": 1,
+      "moveId": 4
+    },
+    {
+      "id": 123,
+      "pokemonTeamId": 1,
+      "moveId": 2
+    },
+    {
+      "id": 131,
+      "pokemonTeamId": 4,
+      "moveId": 20
+    },
+    {
+      "id": 132,
+      "pokemonTeamId": 4,
+      "moveId": 19
+    },
+    {
+      "id": 133,
+      "pokemonTeamId": 4,
+      "moveId": 17
+    },
+    {
+      "id": 134,
+      "pokemonTeamId": 4,
+      "moveId": 6
+    },
+    {
+      "id": 137,
+      "pokemonTeamId": 2,
+      "moveId": 34
+    },
+    {
+      "id": 138,
+      "pokemonTeamId": 2,
+      "moveId": 35
+    },
+    {
+      "id": 139,
+      "pokemonTeamId": 2,
+      "moveId": 7
+    },
+    {
+      "id": 140,
+      "pokemonTeamId": 2,
+      "moveId": 6
+    },
+    {
+      "pokemonTeamId": 5,
+      "moveId": 70,
+      "id": 141
+    },
+    {
+      "pokemonTeamId": 5,
+      "moveId": 68,
+      "id": 142
+    },
+    {
+      "pokemonTeamId": 5,
       "moveId": 54,
-      "id": 71
+      "id": 143
     },
     {
-      "pokemonTeamId": 18,
+      "pokemonTeamId": 5,
       "moveId": 6,
-      "id": 72
+      "id": 144
     },
     {
-      "pokemonTeamId": 1,
-      "moveId": 4,
-      "id": 73
+      "pokemonTeamId": 6,
+      "moveId": 20,
+      "id": 145
     },
     {
-      "pokemonTeamId": 1,
-      "moveId": 2,
-      "id": 74
-    },
-    {
-      "pokemonTeamId": 1,
-      "moveId": 6,
-      "id": 75
-    },
-    {
-      "pokemonTeamId": 1,
-      "moveId": 1,
-      "id": 76
-    },
-    {
-      "pokemonTeamId": 20,
-      "moveId": 42,
-      "id": 81
-    },
-    {
-      "pokemonTeamId": 20,
-      "moveId": 27,
-      "id": 82
-    },
-    {
-      "pokemonTeamId": 20,
+      "pokemonTeamId": 6,
       "moveId": 19,
-      "id": 83
+      "id": 146
     },
     {
-      "pokemonTeamId": 20,
+      "pokemonTeamId": 6,
+      "moveId": 49,
+      "id": 147
+    },
+    {
+      "pokemonTeamId": 6,
       "moveId": 6,
-      "id": 84
-    },
-    {
-      "pokemonTeamId": 19,
-      "moveId": 4,
-      "id": 89
-    },
-    {
-      "pokemonTeamId": 19,
-      "moveId": 31,
-      "id": 90
-    },
-    {
-      "pokemonTeamId": 19,
-      "moveId": 2,
-      "id": 91
-    },
-    {
-      "pokemonTeamId": 19,
-      "moveId": 6,
-      "id": 92
-    },
-    {
-      "pokemonTeamId": 19,
-      "moveId": 6,
-      "id": 93
-    },
-    {
-      "pokemonTeamId": 24,
-      "moveId": 53,
-      "id": 102
-    },
-    {
-      "pokemonTeamId": 24,
-      "moveId": 2,
-      "id": 103
-    },
-    {
-      "pokemonTeamId": 24,
-      "moveId": 6,
-      "id": 104
-    },
-    {
-      "pokemonTeamId": 24,
-      "moveId": 56,
-      "id": 105
-    },
-    {
-      "pokemonTeamId": 24,
-      "moveId": 56,
-      "id": 106
-    },
-    {
-      "pokemonTeamId": 22,
-      "moveId": 51,
-      "id": 107
-    },
-    {
-      "pokemonTeamId": 22,
-      "moveId": 76,
-      "id": 108
-    },
-    {
-      "pokemonTeamId": 22,
-      "moveId": 6,
-      "id": 109
-    },
-    {
-      "pokemonTeamId": 22,
-      "moveId": 78,
-      "id": 110
-    },
-    {
-      "pokemonTeamId": 22,
-      "moveId": 78,
-      "id": 111
-    },
-    {
-      "pokemonTeamId": 21,
-      "moveId": 77,
-      "id": 112
-    },
-    {
-      "pokemonTeamId": 21,
-      "moveId": 31,
-      "id": 113
-    },
-    {
-      "pokemonTeamId": 21,
-      "moveId": 6,
-      "id": 114
-    },
-    {
-      "pokemonTeamId": 21,
-      "moveId": 5,
-      "id": 115
-    },
-    {
-      "pokemonTeamId": 23,
-      "moveId": 34,
-      "id": 116
-    },
-    {
-      "pokemonTeamId": 23,
-      "moveId": 35,
-      "id": 117
-    },
-    {
-      "pokemonTeamId": 23,
-      "moveId": 6,
-      "id": 118
-    },
-    {
-      "pokemonTeamId": 23,
-      "moveId": 36,
-      "id": 119
+      "id": 148
     }
   ],
   "likes": [
@@ -3628,12 +3713,12 @@
     {
       "userId": 1,
       "teamId": 2,
-      "id": 6
+      "id": 8
     },
     {
       "userId": 1,
       "teamId": 3,
-      "id": 7
+      "id": 9
     }
   ],
   "comments": [
