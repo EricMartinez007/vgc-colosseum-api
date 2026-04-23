@@ -653,6 +653,14 @@
     {
       "id": 50,
       "name": "Anger Point"
+    },
+    {
+      "id": 51,
+      "name": "Sand Veil"
+    },
+    {
+      "id": 52,
+      "name": "Rough Skin"
     }
   ],
   "items": [
@@ -1715,7 +1723,7 @@
         "specialDefense": 135,
         "speed": 45
       },
-      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1001.png"
+      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1003.png"
     },
     {
       "id": 30,
@@ -2428,7 +2436,25 @@
       "id": 1,
       "name": "Trick Room Terror",
       "userId": 1,
-      "formatId": 2
+      "formatId": 2,
+      "likes": [
+        {
+          "id": 1,
+          "userId": 2,
+          "teamId": 1
+        },
+        {
+          "id": 2,
+          "userId": 3,
+          "teamId": 1
+        }
+      ],
+      "user": {
+        "id": 1,
+        "name": "Ash Ketchum",
+        "email": "ash@pallet.edu",
+        "formatId": 2
+      }
     },
     {
       "id": 2,
@@ -2443,10 +2469,17 @@
       "formatId": 1
     },
     {
-      "id": 4,
-      "name": "Gringus",
+      "name": "Plumbus",
       "userId": 1,
-      "formatId": 2
+      "formatId": 2,
+      "id": 5,
+      "likes": [],
+      "user": {
+        "id": 1,
+        "name": "Ash Ketchum",
+        "email": "ash@pallet.edu",
+        "formatId": 2
+      }
     }
   ],
   "pokemonTeams": [
@@ -2508,7 +2541,32 @@
       "defEv": 0,
       "spAtkEv": 0,
       "spDefEv": 0,
-      "spdEv": 0
+      "spdEv": 0,
+      "pokemon": {
+        "id": 7,
+        "name": "Amoonguss",
+        "baseStats": {
+          "hp": 114,
+          "attack": 85,
+          "defense": 70,
+          "specialAttack": 85,
+          "specialDefense": 80,
+          "speed": 30
+        },
+        "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/591.png"
+      },
+      "ability": {
+        "id": 17,
+        "name": "Regenerator"
+      },
+      "nature": {
+        "id": 8,
+        "name": "Relaxed"
+      },
+      "item": {
+        "id": 14,
+        "name": "Safety Goggles"
+      }
     },
     {
       "id": 4,
@@ -2568,7 +2626,32 @@
       "defEv": 0,
       "spAtkEv": 0,
       "spDefEv": 0,
-      "spdEv": 0
+      "spdEv": 0,
+      "pokemon": {
+        "id": 37,
+        "name": "Cresselia",
+        "baseStats": {
+          "hp": 120,
+          "attack": 70,
+          "defense": 120,
+          "specialAttack": 75,
+          "specialDefense": 130,
+          "speed": 85
+        },
+        "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/488.png"
+      },
+      "ability": {
+        "id": 13,
+        "name": "Levitate"
+      },
+      "nature": {
+        "id": 8,
+        "name": "Relaxed"
+      },
+      "item": {
+        "id": 10,
+        "name": "Leftovers"
+      }
     },
     {
       "id": 7,
@@ -2812,9 +2895,9 @@
     },
     {
       "pokemonId": 1,
-      "teamId": 4,
+      "teamId": 5,
       "abilityId": 1,
-      "natureId": 1,
+      "natureId": 24,
       "itemId": 7,
       "hpIv": 31,
       "atkIv": 31,
@@ -2823,18 +2906,223 @@
       "spDefIv": 31,
       "spdIv": 31,
       "hpEv": 252,
-      "atkEv": 0,
-      "defEv": 181,
+      "atkEv": 4,
+      "defEv": 252,
       "spAtkEv": 0,
-      "spDefEv": 74,
+      "spDefEv": 0,
       "spdEv": 0,
-      "id": 19
+      "id": 25,
+      "pokemon": {
+        "id": 1,
+        "name": "Incineroar",
+        "baseStats": {
+          "hp": 95,
+          "attack": 115,
+          "defense": 90,
+          "specialAttack": 80,
+          "specialDefense": 90,
+          "speed": 60
+        },
+        "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/727.png"
+      },
+      "ability": {
+        "id": 1,
+        "name": "Intimidate"
+      },
+      "nature": {
+        "id": 1,
+        "name": "Hardy"
+      },
+      "item": {
+        "id": 7,
+        "name": "Sitrus Berry"
+      }
     },
     {
-      "pokemonId": 16,
-      "teamId": 4,
-      "abilityId": 29,
-      "natureId": 1,
+      "pokemonId": 2,
+      "teamId": 5,
+      "abilityId": 10,
+      "natureId": 16,
+      "itemId": 11,
+      "hpIv": 31,
+      "atkIv": 31,
+      "defIv": 31,
+      "spAtkIv": 31,
+      "spDefIv": 31,
+      "spdIv": 31,
+      "hpEv": 4,
+      "atkEv": 0,
+      "defEv": 0,
+      "spAtkEv": 252,
+      "spDefEv": 0,
+      "spdEv": 252,
+      "id": 26,
+      "pokemon": {
+        "id": 2,
+        "name": "Flutter Mane",
+        "baseStats": {
+          "hp": 55,
+          "attack": 55,
+          "defense": 55,
+          "specialAttack": 135,
+          "specialDefense": 135,
+          "speed": 135
+        },
+        "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/987.png"
+      },
+      "ability": {
+        "id": 10,
+        "name": "Protosynthesis"
+      },
+      "nature": {
+        "id": 1,
+        "name": "Hardy"
+      },
+      "item": {
+        "id": 11,
+        "name": "Booster Energy"
+      }
+    },
+    {
+      "pokemonId": 3,
+      "teamId": 5,
+      "abilityId": 9,
+      "natureId": 4,
+      "itemId": 5,
+      "hpIv": 31,
+      "atkIv": 31,
+      "defIv": 31,
+      "spAtkIv": 31,
+      "spDefIv": 31,
+      "spdIv": 31,
+      "hpEv": 252,
+      "atkEv": 252,
+      "defEv": 0,
+      "spAtkEv": 0,
+      "spDefEv": 4,
+      "spdEv": 0,
+      "id": 27,
+      "pokemon": {
+        "id": 3,
+        "name": "Rillaboom",
+        "baseStats": {
+          "hp": 100,
+          "attack": 125,
+          "defense": 90,
+          "specialAttack": 60,
+          "specialDefense": 70,
+          "speed": 85
+        },
+        "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/812.png"
+      },
+      "ability": {
+        "id": 9,
+        "name": "Grassy Surge"
+      },
+      "nature": {
+        "id": 1,
+        "name": "Hardy"
+      },
+      "item": {
+        "id": 5,
+        "name": "Assault Vest"
+      }
+    },
+    {
+      "pokemonId": 9,
+      "teamId": 5,
+      "abilityId": 52,
+      "natureId": 14,
+      "itemId": 2,
+      "hpIv": 31,
+      "atkIv": 31,
+      "defIv": 31,
+      "spAtkIv": 31,
+      "spDefIv": 31,
+      "spdIv": 31,
+      "hpEv": 4,
+      "atkEv": 252,
+      "defEv": 0,
+      "spAtkEv": 0,
+      "spDefEv": 0,
+      "spdEv": 252,
+      "id": 28,
+      "pokemon": {
+        "id": 9,
+        "name": "Garchomp",
+        "baseStats": {
+          "hp": 108,
+          "attack": 130,
+          "defense": 95,
+          "specialAttack": 80,
+          "specialDefense": 85,
+          "speed": 102
+        },
+        "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/445.png"
+      },
+      "ability": {
+        "id": 13,
+        "name": "Levitate"
+      },
+      "nature": {
+        "id": 14,
+        "name": "Jolly"
+      },
+      "item": {
+        "id": 2,
+        "name": "Choice Scarf"
+      }
+    },
+    {
+      "pokemonId": 15,
+      "teamId": 5,
+      "abilityId": 20,
+      "natureId": 16,
+      "itemId": 10,
+      "hpIv": 31,
+      "atkIv": 31,
+      "defIv": 31,
+      "spAtkIv": 31,
+      "spDefIv": 31,
+      "spdIv": 31,
+      "hpEv": 252,
+      "atkEv": 0,
+      "defEv": 0,
+      "spAtkEv": 4,
+      "spDefEv": 252,
+      "spdEv": 0,
+      "id": 29,
+      "pokemon": {
+        "id": 15,
+        "name": "Heatran",
+        "baseStats": {
+          "hp": 91,
+          "attack": 90,
+          "defense": 106,
+          "specialAttack": 130,
+          "specialDefense": 106,
+          "speed": 77
+        },
+        "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/485.png"
+      },
+      "ability": {
+        "id": 20,
+        "name": "Flash Fire"
+      },
+      "nature": {
+        "id": 1,
+        "name": "Hardy"
+      },
+      "item": {
+        "id": 10,
+        "name": "Leftovers"
+      }
+    },
+    {
+      "pokemonId": 6,
+      "teamId": 5,
+      "abilityId": 25,
+      "natureId": 11,
       "itemId": 9,
       "hpIv": 31,
       "atkIv": 31,
@@ -2848,110 +3136,35 @@
       "spAtkEv": 252,
       "spDefEv": 0,
       "spdEv": 252,
-      "id": 20
-    },
-    {
-      "pokemonId": 3,
-      "teamId": 4,
-      "abilityId": 9,
-      "natureId": 1,
-      "itemId": 5,
-      "hpIv": 31,
-      "atkIv": 31,
-      "defIv": 31,
-      "spAtkIv": 31,
-      "spDefIv": 31,
-      "spdIv": 31,
-      "hpEv": 0,
-      "atkEv": 252,
-      "defEv": 0,
-      "spAtkEv": 0,
-      "spDefEv": 6,
-      "spdEv": 252,
-      "id": 21
-    },
-    {
-      "pokemonId": 32,
-      "teamId": 4,
-      "abilityId": 43,
-      "natureId": 1,
-      "itemId": 6,
-      "hpIv": 31,
-      "atkIv": 31,
-      "defIv": 31,
-      "spAtkIv": 31,
-      "spDefIv": 31,
-      "spdIv": 31,
-      "hpEv": 252,
-      "atkEv": 4,
-      "defEv": 4,
-      "spAtkEv": 0,
-      "spDefEv": 196,
-      "spdEv": 54,
-      "id": 22
-    },
-    {
-      "pokemonId": 19,
-      "teamId": 4,
-      "abilityId": 27,
-      "natureId": 1,
-      "itemId": 22,
-      "hpIv": 31,
-      "atkIv": 31,
-      "defIv": 31,
-      "spAtkIv": 31,
-      "spDefIv": 31,
-      "spdIv": 31,
-      "hpEv": 252,
-      "atkEv": 0,
-      "defEv": 252,
-      "spAtkEv": 0,
-      "spDefEv": 0,
-      "spdEv": 4,
-      "id": 23
-    },
-    {
-      "pokemonId": 4,
-      "teamId": 4,
-      "abilityId": 45,
-      "natureId": 1,
-      "itemId": 9,
-      "hpIv": 31,
-      "atkIv": 31,
-      "defIv": 31,
-      "spAtkIv": 31,
-      "spDefIv": 31,
-      "spdIv": 31,
-      "hpEv": 4,
-      "atkEv": 252,
-      "defEv": 0,
-      "spAtkEv": 0,
-      "spDefEv": 0,
-      "spdEv": 252,
-      "id": 24
+      "id": 30,
+      "pokemon": {
+        "id": 6,
+        "name": "Tornadus",
+        "baseStats": {
+          "hp": 79,
+          "attack": 115,
+          "defense": 70,
+          "specialAttack": 125,
+          "specialDefense": 80,
+          "speed": 111
+        },
+        "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/641.png"
+      },
+      "ability": {
+        "id": 25,
+        "name": "Unburden"
+      },
+      "nature": {
+        "id": 1,
+        "name": "Hardy"
+      },
+      "item": {
+        "id": 9,
+        "name": "Focus Sash"
+      }
     }
   ],
   "pokemonMoves": [
-    {
-      "id": 9,
-      "pokemonTeamId": 3,
-      "moveId": 22
-    },
-    {
-      "id": 10,
-      "pokemonTeamId": 3,
-      "moveId": 20
-    },
-    {
-      "id": 11,
-      "pokemonTeamId": 3,
-      "moveId": 30
-    },
-    {
-      "id": 12,
-      "pokemonTeamId": 3,
-      "moveId": 6
-    },
     {
       "id": 25,
       "pokemonTeamId": 7,
@@ -3273,144 +3486,164 @@
       "moveId": 6
     },
     {
-      "id": 145,
-      "pokemonTeamId": 6,
-      "moveId": 20
-    },
-    {
-      "id": 146,
-      "pokemonTeamId": 6,
-      "moveId": 19
-    },
-    {
-      "id": 147,
-      "pokemonTeamId": 6,
-      "moveId": 49
-    },
-    {
-      "id": 148,
-      "pokemonTeamId": 6,
-      "moveId": 6
-    },
-    {
-      "pokemonTeamId": 19,
+      "pokemonTeamId": 25,
       "moveId": 2,
-      "id": 149
+      "id": 203
     },
     {
-      "pokemonTeamId": 19,
+      "pokemonTeamId": 25,
+      "moveId": 31,
+      "id": 204
+    },
+    {
+      "pokemonTeamId": 25,
+      "moveId": 6,
+      "id": 205
+    },
+    {
+      "pokemonTeamId": 25,
       "moveId": 4,
-      "id": 150
+      "id": 206
     },
     {
-      "pokemonTeamId": 19,
-      "moveId": 31,
-      "id": 151
+      "pokemonTeamId": 26,
+      "moveId": 15,
+      "id": 207
     },
     {
-      "pokemonTeamId": 19,
+      "pokemonTeamId": 26,
+      "moveId": 16,
+      "id": 208
+    },
+    {
+      "pokemonTeamId": 26,
+      "moveId": 17,
+      "id": 209
+    },
+    {
+      "pokemonTeamId": 26,
       "moveId": 6,
-      "id": 152
+      "id": 210
     },
     {
-      "pokemonTeamId": 20,
-      "moveId": 42,
-      "id": 153
-    },
-    {
-      "pokemonTeamId": 20,
-      "moveId": 19,
-      "id": 154
-    },
-    {
-      "pokemonTeamId": 20,
-      "moveId": 27,
-      "id": 155
-    },
-    {
-      "pokemonTeamId": 20,
-      "moveId": 6,
-      "id": 156
-    },
-    {
-      "pokemonTeamId": 21,
+      "pokemonTeamId": 27,
       "moveId": 77,
-      "id": 157
+      "id": 211
     },
     {
-      "pokemonTeamId": 21,
-      "moveId": 31,
-      "id": 158
-    },
-    {
-      "pokemonTeamId": 21,
-      "moveId": 5,
-      "id": 159
-    },
-    {
-      "pokemonTeamId": 21,
-      "moveId": 6,
-      "id": 160
-    },
-    {
-      "pokemonTeamId": 22,
-      "moveId": 51,
-      "id": 161
-    },
-    {
-      "pokemonTeamId": 22,
+      "pokemonTeamId": 27,
       "moveId": 78,
-      "id": 162
+      "id": 212
     },
     {
-      "pokemonTeamId": 22,
-      "moveId": 76,
-      "id": 163
+      "pokemonTeamId": 27,
+      "moveId": 31,
+      "id": 213
     },
     {
-      "pokemonTeamId": 22,
+      "pokemonTeamId": 27,
+      "moveId": 5,
+      "id": 214
+    },
+    {
+      "pokemonTeamId": 29,
+      "moveId": 37,
+      "id": 219
+    },
+    {
+      "pokemonTeamId": 29,
+      "moveId": 23,
+      "id": 220
+    },
+    {
+      "pokemonTeamId": 29,
       "moveId": 6,
-      "id": 164
+      "id": 221
     },
     {
-      "pokemonTeamId": 23,
-      "moveId": 34,
-      "id": 165
+      "pokemonTeamId": 29,
+      "moveId": 7,
+      "id": 222
     },
     {
-      "pokemonTeamId": 23,
-      "moveId": 35,
-      "id": 166
+      "pokemonTeamId": 30,
+      "moveId": 9,
+      "id": 223
     },
     {
-      "pokemonTeamId": 23,
-      "moveId": 36,
-      "id": 167
+      "pokemonTeamId": 30,
+      "moveId": 37,
+      "id": 224
     },
     {
-      "pokemonTeamId": 23,
+      "pokemonTeamId": 30,
       "moveId": 6,
-      "id": 168
+      "id": 225
     },
     {
-      "pokemonTeamId": 24,
-      "moveId": 53,
-      "id": 169
+      "pokemonTeamId": 30,
+      "moveId": 16,
+      "id": 226
     },
     {
-      "pokemonTeamId": 24,
-      "moveId": 2,
-      "id": 170
+      "pokemonTeamId": 6,
+      "moveId": 20,
+      "id": 227
     },
     {
-      "pokemonTeamId": 24,
-      "moveId": 56,
-      "id": 171
+      "pokemonTeamId": 6,
+      "moveId": 19,
+      "id": 228
     },
     {
-      "pokemonTeamId": 24,
+      "pokemonTeamId": 6,
+      "moveId": 10,
+      "id": 229
+    },
+    {
+      "pokemonTeamId": 6,
       "moveId": 6,
-      "id": 172
+      "id": 230
+    },
+    {
+      "pokemonTeamId": 3,
+      "moveId": 22,
+      "id": 231
+    },
+    {
+      "pokemonTeamId": 3,
+      "moveId": 6,
+      "id": 232
+    },
+    {
+      "pokemonTeamId": 3,
+      "moveId": 30,
+      "id": 233
+    },
+    {
+      "pokemonTeamId": 3,
+      "moveId": 20,
+      "id": 234
+    },
+    {
+      "pokemonTeamId": 28,
+      "moveId": 7,
+      "id": 235
+    },
+    {
+      "pokemonTeamId": 28,
+      "moveId": 39,
+      "id": 236
+    },
+    {
+      "pokemonTeamId": 28,
+      "moveId": 8,
+      "id": 237
+    },
+    {
+      "pokemonTeamId": 28,
+      "moveId": 6,
+      "id": 238
     }
   ],
   "likes": [
@@ -3430,9 +3663,9 @@
       "teamId": 2
     },
     {
-      "id": 5,
       "userId": 1,
-      "teamId": 2
+      "teamId": 2,
+      "id": 5
     }
   ],
   "comments": [
@@ -3544,12 +3777,12 @@
     {
       "id": 16,
       "pokemonId": 9,
-      "abilityId": 13
+      "abilityId": 51
     },
     {
       "id": 17,
       "pokemonId": 9,
-      "abilityId": 38
+      "abilityId": 52
     },
     {
       "id": 18,
